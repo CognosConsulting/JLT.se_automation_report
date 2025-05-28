@@ -1,0 +1,39 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"This test checks whether the JLT homepage Reseplanerare is visible and returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if Reseplanerare is visible
+2. Send a GET request to JLT homepage Reseplanerare.
+3. Verify that the received HTTP status code is 200.","8887","Reseplanerare Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed May 28 11:43:02 UTC 2025","passed","Wed May 28 11:43:11 UTC 2025","","External Dependencies","",""
+"This test verifies that the feedback and complaints form is accessible from the start page,
+that the form iframe is visible, and that the form responds with HTTP status 200.
+Steps:
+1. Navigate to Synpunkter Allmän form and check iframe is visible
+2. Send a GET request to the iframe src
+3. Verify that the received HTTP status code is 200.","3481","Synpunkter Allman Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed May 28 11:43:39 UTC 2025","passed","Wed May 28 11:43:42 UTC 2025","","External Dependencies","",""
+"This test checks whether the JLT Kundforum is visible and when clicked, returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if JLT Kundforum is visible
+2. Send a GET request to JLT Kundforum
+3. Verify that the received HTTP status code is 200.","8346","Kundforum Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed May 28 11:43:27 UTC 2025","failed","Wed May 28 11:43:35 UTC 2025","","External Dependencies","",""
+"This test checks whether the JLT Foretagsportalen is visible and when clicked, returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if JLT Foretagsportalen is visible
+2. Send a GET request to JLT Foretagsportalen
+3. Verify that the received HTTP status code is 200.","6362","Foretagsportalen Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed May 28 11:43:20 UTC 2025","passed","Wed May 28 11:43:27 UTC 2025","","External Dependencies","",""
+"This test verifies that the feedback and complaints form is accessible from the start page,
+that the form iframe is visible, and that the form responds with HTTP status 200.
+Steps:
+1. Navigate to Synpunkter Serviceresor form and check iframe is visible
+2. Send a GET request to the iframe src
+3. Verify that the received HTTP status code is 200.","3653","Synpunkter Serviceresor Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed May 28 11:43:42 UTC 2025","passed","Wed May 28 11:43:46 UTC 2025","","External Dependencies","",""
+"This test checks whether the JLT Mitt Konto is visible and when clicked, returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if JLT Mitt Konto is visible
+2. Send a GET request to JLT Mitt Konto
+3. Verify that the received HTTP status code is 200.","9335","Mitt Konto Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed May 28 11:43:11 UTC 2025","failed","Wed May 28 11:43:20 UTC 2025","","External Dependencies","",""
+"This test verifies that the delay compensation form is accessible from the start page,
+that the form iframe is visible, and that the form responds with HTTP status 200.
+Steps:
+1. Navigate to Förseningsersättning form and check iframe is visible
+2. Send a GET request to the iframe src
+3. Verify that the received HTTP status code is 200.","3803","Forseningsersattning Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed May 28 11:43:35 UTC 2025","passed","Wed May 28 11:43:39 UTC 2025","","External Dependencies","",""
