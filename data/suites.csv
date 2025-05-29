@@ -1,151 +1,151 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","2736","Verify Menu Res Med Oss Kartor Och Zoner","","Thu May 29 04:31:55 UTC 2025","passed","Thu May 29 04:31:58 UTC 2025","Menu","Test Cases","",""
-"","2549","Verify Menu Res Med Oss Serviceresor Sjukresor Halsoskal","","Thu May 29 04:31:33 UTC 2025","passed","Thu May 29 04:31:36 UTC 2025","Menu","Test Cases","",""
-"","2361","Verify Menu Kundservice","","Thu May 29 04:33:25 UTC 2025","passed","Thu May 29 04:33:28 UTC 2025","Menu","Test Cases","",""
-"Verifierar rubrik och länkar under ""Tjänster"" Nyheter","2857","Verify Footer Tjanster Nyheter","","Thu May 29 04:30:47 UTC 2025","passed","Thu May 29 04:30:50 UTC 2025","Footer","Test Cases","",""
-"","2498","Verify Menu Om JLT Tillganglighetsredogorelse","","Thu May 29 04:34:35 UTC 2025","passed","Thu May 29 04:34:37 UTC 2025","Menu","Test Cases","",""
-"","3226","Verify Menu Mitt Konto","","Thu May 29 04:35:23 UTC 2025","passed","Thu May 29 04:35:26 UTC 2025","Menu","Test Cases","",""
-"","2319","Verify Main Menu Biljetter Och Priser","","Thu May 29 04:31:15 UTC 2025","passed","Thu May 29 04:31:18 UTC 2025","Menu","Test Cases","",""
-"","2849","Verify Menu Biljetter Och Priser Kop Biljett Appen Lana Ut","","Thu May 29 04:33:04 UTC 2025","passed","Thu May 29 04:33:06 UTC 2025","Menu","Test Cases","",""
-"","4216","Verify Menu Biljetter Och Priser Vara Biljetter Periodbiljett","","Thu May 29 04:32:44 UTC 2025","passed","Thu May 29 04:32:48 UTC 2025","Menu","Test Cases","",""
-"","2530","Verify Menu Kundservice Lamna Synpunkter Serviceresor","","Thu May 29 04:33:46 UTC 2025","passed","Thu May 29 04:33:49 UTC 2025","Menu","Test Cases","",""
-"","2911","Verify Menu Kundservice Forseningsersattning","","Thu May 29 04:33:52 UTC 2025","passed","Thu May 29 04:33:55 UTC 2025","Menu","Test Cases","",""
-"","3906","Verify Menu Res Med Oss Tillganglighet Ledsagning Tidtabeller","","Thu May 29 04:32:07 UTC 2025","passed","Thu May 29 04:32:10 UTC 2025","Menu","Test Cases","",""
-"","7716","Verify Menu Kundservice Fragor Och Svar","","Thu May 29 04:34:00 UTC 2025","failed","Thu May 29 04:34:08 UTC 2025","Menu","Test Cases","",""
-"","2863","Verify Menu Kundservice Lamna Synpunkter Allman","","Thu May 29 04:33:49 UTC 2025","passed","Thu May 29 04:33:52 UTC 2025","Menu","Test Cases","",""
-"","2622","Verify Menu Res Med Oss Serviceresor Nartrafik Oasvangen","","Thu May 29 04:31:38 UTC 2025","passed","Thu May 29 04:31:41 UTC 2025","Menu","Test Cases","",""
-"This test verifies that the feedback and complaints form is accessible from the start page,
-that the form iframe is visible, and that the form responds with HTTP status 200.
-Steps:
-1. Navigate to Synpunkter Serviceresor form and check iframe is visible
-2. Send a GET request to the iframe src
-3. Verify that the received HTTP status code is 200.","3628","Synpunkter Serviceresor Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 04:30:23 UTC 2025","passed","Thu May 29 04:30:26 UTC 2025","External Dependencies","Test Cases","",""
-"","2538","Verify Menu Res Med Oss Serviceresor Nartrafik Huskvarnasnurren","","Thu May 29 04:31:41 UTC 2025","passed","Thu May 29 04:31:43 UTC 2025","Menu","Test Cases","",""
-"","2511","Verify Menu Om JLT Cookies","","Thu May 29 04:34:32 UTC 2025","passed","Thu May 29 04:34:35 UTC 2025","Menu","Test Cases","",""
-"Verifierar att alla röda kontaktblock och telefonnummer visas korrekt","2224","Verify Footer Contact Blocks","","Thu May 29 04:30:26 UTC 2025","passed","Thu May 29 04:30:29 UTC 2025","Footer","Test Cases","",""
-"","2437","Verify Menu Foretag Att Vara Foretagskund","","Thu May 29 04:34:48 UTC 2025","passed","Thu May 29 04:34:50 UTC 2025","Menu","Test Cases","",""
-"","3070","Verify Menu Res Med Oss Serviceresor Fardtjanst Efaktura Och Autogiro","","Thu May 29 04:31:49 UTC 2025","passed","Thu May 29 04:31:52 UTC 2025","Menu","Test Cases","",""
-"","2526","Verify Menu Kundservice Kontakta Oss","","Thu May 29 04:33:28 UTC 2025","passed","Thu May 29 04:33:30 UTC 2025","Menu","Test Cases","",""
-"","2660","Verify Menu Foretag Fragor Och Svar","","Thu May 29 04:35:12 UTC 2025","passed","Thu May 29 04:35:15 UTC 2025","Menu","Test Cases","",""
-"","2802","Verify Menu Biljetter Och Priser Kop Biljett Mitt Konto","","Thu May 29 04:33:12 UTC 2025","passed","Thu May 29 04:33:15 UTC 2025","Menu","Test Cases","",""
-"","2814","Verify Menu Biljetter Och Priser Kop Biljett Appen","","Thu May 29 04:32:58 UTC 2025","passed","Thu May 29 04:33:00 UTC 2025","Menu","Test Cases","",""
-"Verifierar rubrik och länkar under ""Om oss""","4213","Verify Footer Om Oss","","Thu May 29 04:30:40 UTC 2025","passed","Thu May 29 04:30:44 UTC 2025","Footer","Test Cases","",""
-"This test checks:
-1. Performs search
-2. Clicks on search result index 0
-3. Verifies correct page","4331","Search on ""Ge bort biljett"" and land on the correct page","","Thu May 29 04:35:34 UTC 2025","passed","Thu May 29 04:35:38 UTC 2025","Search","Test Cases","",""
-"","2536","Verify Menu Om JLT Tillganglighetsredogorelse JLTse","","Thu May 29 04:34:37 UTC 2025","passed","Thu May 29 04:34:40 UTC 2025","Menu","Test Cases","",""
-"","3038","Verify Menu Biljetter Och Priser Kop Biljett Appen Ge Bort Din Biljett","","Thu May 29 04:33:00 UTC 2025","passed","Thu May 29 04:33:03 UTC 2025","Menu","Test Cases","",""
-"","3023","Verify Menu Res Med Oss Serviceresor Fardtjanst Ansok Om Aterkommande Resor","","Thu May 29 04:31:46 UTC 2025","passed","Thu May 29 04:31:49 UTC 2025","Menu","Test Cases","",""
-"","2860","Verify Menu Biljetter Och Priser Kop Biljett Biljettautomater","","Thu May 29 04:33:06 UTC 2025","passed","Thu May 29 04:33:09 UTC 2025","Menu","Test Cases","",""
-"","4131","Verify Menu Biljetter Och Priser Vara Biljetter","","Thu May 29 04:32:23 UTC 2025","passed","Thu May 29 04:32:27 UTC 2025","Menu","Test Cases","",""
-"Verifierar att Instagram-ikonen/länken finns och fungerar","3835","Verify Footer Instagram Icon","","Thu May 29 04:31:02 UTC 2025","failed","Thu May 29 04:31:06 UTC 2025","Footer","Test Cases","",""
-"","2517","Verify Menu Om JLT Tillganglighetsredogorelse Mitt Konto","","Thu May 29 04:34:40 UTC 2025","passed","Thu May 29 04:34:43 UTC 2025","Menu","Test Cases","",""
-"","2867","Verify Menu Biljetter Och Priser Vara Biljetter Skolbiljett","","Thu May 29 04:32:51 UTC 2025","passed","Thu May 29 04:32:54 UTC 2025","Menu","Test Cases","",""
-"","2909","Verify Menu Om JLT Var Trafik","","Thu May 29 04:34:24 UTC 2025","passed","Thu May 29 04:34:27 UTC 2025","Menu","Test Cases","",""
-"","2628","Verify Menu Om JLT Om Verksamheten Hallbarhet","","Thu May 29 04:34:22 UTC 2025","passed","Thu May 29 04:34:24 UTC 2025","Menu","Test Cases","",""
-"","4277","Verify Menu Biljetter Och Priser Vara Biljetter Enkelbiljett","","Thu May 29 04:32:27 UTC 2025","passed","Thu May 29 04:32:31 UTC 2025","Menu","Test Cases","",""
-"","2592","Verify Menu Foretag Att Vara Foretagskund Fakturering","","Thu May 29 04:34:53 UTC 2025","passed","Thu May 29 04:34:55 UTC 2025","Menu","Test Cases","",""
-"","2583","Verify Menu Foretag Att Vara Foretagskund Priser","","Thu May 29 04:34:55 UTC 2025","passed","Thu May 29 04:34:58 UTC 2025","Menu","Test Cases","",""
-"","4220","Verify Menu Biljetter Och Priser Vara Biljetter Flexbiljett","","Thu May 29 04:32:40 UTC 2025","passed","Thu May 29 04:32:44 UTC 2025","Menu","Test Cases","",""
-"","2607","Verify Main Menu Foretag","","Thu May 29 04:31:20 UTC 2025","passed","Thu May 29 04:31:23 UTC 2025","Menu","Test Cases","",""
-"","2487","Verify Menu Foretag","","Thu May 29 04:34:45 UTC 2025","passed","Thu May 29 04:34:48 UTC 2025","Menu","Test Cases","",""
-"","2545","Verify Menu Foretag Vara Tjanster Tjansteresor","","Thu May 29 04:35:01 UTC 2025","passed","Thu May 29 04:35:04 UTC 2025","Menu","Test Cases","",""
+"","3542","Verify Menu Om JLT Tillganglighetsredogorelse Appen","","Thu May 29 16:30:41 UTC 2025","passed","Thu May 29 16:30:45 UTC 2025","Menu","Test Cases","",""
+"","3835","Verify Menu Biljetter Och Priser Kop Biljett Biljettautomater","","Thu May 29 16:28:32 UTC 2025","passed","Thu May 29 16:28:36 UTC 2025","Menu","Test Cases","",""
+"Verifierar rubrik och länkar under ""Tjänster"" Mitt Konto","4677","Verify Footer Tjanster Mitt Konto","","Thu May 29 16:25:43 UTC 2025","passed","Thu May 29 16:25:48 UTC 2025","Footer","Test Cases","",""
+"","3540","Verify Menu Foretag Att Vara Foretagskund Resekort","","Thu May 29 16:30:53 UTC 2025","passed","Thu May 29 16:30:56 UTC 2025","Menu","Test Cases","",""
+"","3712","Verify Menu Kundservice Forseningsersattning Alternativa Fardmedel","","Thu May 29 16:29:42 UTC 2025","passed","Thu May 29 16:29:46 UTC 2025","Menu","Test Cases","",""
+"","3374","Verify Main Menu Res Med Oss","","Thu May 29 16:26:20 UTC 2025","passed","Thu May 29 16:26:24 UTC 2025","Menu","Test Cases","",""
+"","3572","Verify Menu Om JLT Om Verksamheten","","Thu May 29 16:29:58 UTC 2025","passed","Thu May 29 16:30:01 UTC 2025","Menu","Test Cases","",""
+"","3779","Verify Menu Res Med Oss Kartor Och Zoner Resor Danmark","","Thu May 29 16:27:25 UTC 2025","passed","Thu May 29 16:27:29 UTC 2025","Menu","Test Cases","",""
+"","3536","Verify Menu Om JLT Om Verksamheten Hallbarhet","","Thu May 29 16:30:12 UTC 2025","passed","Thu May 29 16:30:16 UTC 2025","Menu","Test Cases","",""
+"","3492","Verify Menu Kundservice Kontakta Oss Engelska","","Thu May 29 16:29:16 UTC 2025","passed","Thu May 29 16:29:20 UTC 2025","Menu","Test Cases","",""
 "This test checks whether the JLT Mitt Konto is visible and when clicked, returns an HTTP status code of 200 (OK).
 Steps:
 1. Check if JLT Mitt Konto is visible
 2. Send a GET request to JLT Mitt Konto
-3. Verify that the received HTTP status code is 200.","8776","Mitt Konto Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 04:29:53 UTC 2025","failed","Thu May 29 04:30:02 UTC 2025","External Dependencies","Test Cases","",""
-"","2844","Verify Menu Res Med Oss Kartor Och Zoner Kommersiell Trafik","","Thu May 29 04:31:58 UTC 2025","passed","Thu May 29 04:32:01 UTC 2025","Menu","Test Cases","",""
-"This test checks whether the JLT homepage Reseplanerare is visible and returns an HTTP status code of 200 (OK).
-Steps:
-1. Check if Reseplanerare is visible
-2. Send a GET request to JLT homepage Reseplanerare.
-3. Verify that the received HTTP status code is 200.","4009","Reseplanerare Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 04:29:49 UTC 2025","passed","Thu May 29 04:29:53 UTC 2025","External Dependencies","Test Cases","",""
-"","2720","Verify Menu Kundservice Kontakta Oss Engelska","","Thu May 29 04:33:38 UTC 2025","passed","Thu May 29 04:33:41 UTC 2025","Menu","Test Cases","",""
-"","2541","Verify Menu Foretag Fragor Och Svar Bestall Resekort","","Thu May 29 04:35:15 UTC 2025","passed","Thu May 29 04:35:18 UTC 2025","Menu","Test Cases","",""
-"Verifierar rubrik och länkar under ""Resa""","4304","Verify Footer Resa","","Thu May 29 04:30:29 UTC 2025","passed","Thu May 29 04:30:33 UTC 2025","Footer","Test Cases","",""
-"","2694","Verify Menu Res Med Oss Serviceresor","","Thu May 29 04:31:28 UTC 2025","passed","Thu May 29 04:31:30 UTC 2025","Menu","Test Cases","",""
-"","4112","Verify Menu Res Med Oss Tillganglighet Ledsagning Stationer","","Thu May 29 04:32:15 UTC 2025","passed","Thu May 29 04:32:19 UTC 2025","Menu","Test Cases","",""
-"","2458","Verify Menu Res Med Oss Serviceresor Nartrafik","","Thu May 29 04:31:36 UTC 2025","passed","Thu May 29 04:31:38 UTC 2025","Menu","Test Cases","",""
-"","3244","Verify Menu Biljetter Och Priser Vara Biljetter Periodbiljett Seniorrabatt","","Thu May 29 04:32:48 UTC 2025","passed","Thu May 29 04:32:51 UTC 2025","Menu","Test Cases","",""
-"","2603","Verify Menu Om JLT Lediga Tjanster","","Thu May 29 04:34:30 UTC 2025","passed","Thu May 29 04:34:32 UTC 2025","Menu","Test Cases","",""
-"Verifierar rubrik och länkar under ""Kundservice""","3311","Verify Footer Kundservice","","Thu May 29 04:30:37 UTC 2025","passed","Thu May 29 04:30:40 UTC 2025","Footer","Test Cases","",""
-"","4210","Verify Menu Res Med Oss Tillganglighet Ledsagning Barnvagn","","Thu May 29 04:32:11 UTC 2025","passed","Thu May 29 04:32:15 UTC 2025","Menu","Test Cases","",""
-"Verifierar att LinkedIn-ikonen/länken finns och fungerar","3540","Verify Footer LinkedIn Icon","","Thu May 29 04:31:06 UTC 2025","passed","Thu May 29 04:31:09 UTC 2025","Footer","Test Cases","",""
-"","2871","Verify Menu Kundservice Kontakta Oss Forlustgaranti","","Thu May 29 04:33:33 UTC 2025","passed","Thu May 29 04:33:36 UTC 2025","Menu","Test Cases","",""
-"","4151","Verify Menu Biljetter Och Priser Vara Biljetter Enkelbiljett Kundkassa","","Thu May 29 04:32:31 UTC 2025","passed","Thu May 29 04:32:35 UTC 2025","Menu","Test Cases","",""
-"","2405","Verify Menu Biljetter Och Priser Aldersgranser Och Rabatter","","Thu May 29 04:33:23 UTC 2025","passed","Thu May 29 04:33:25 UTC 2025","Menu","Test Cases","",""
-"","2908","Verify Menu Kundservice Lamna Synpunkter Kundpanel","","Thu May 29 04:33:43 UTC 2025","passed","Thu May 29 04:33:46 UTC 2025","Menu","Test Cases","",""
-"This test checks whether the JLT Kundforum is visible and when clicked, returns an HTTP status code of 200 (OK).
-Steps:
-1. Check if JLT Kundforum is visible
-2. Send a GET request to JLT Kundforum
-3. Verify that the received HTTP status code is 200.","7807","Kundforum Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 04:30:08 UTC 2025","failed","Thu May 29 04:30:15 UTC 2025","External Dependencies","Test Cases","",""
-"","2416","Verify Menu Kundservice Kontakta Oss Aterkop","","Thu May 29 04:33:30 UTC 2025","passed","Thu May 29 04:33:33 UTC 2025","Menu","Test Cases","",""
-"","2432","Verify Menu Sok","","Thu May 29 04:35:18 UTC 2025","passed","Thu May 29 04:35:20 UTC 2025","Menu","Test Cases","",""
-"","2715","Verify Menu Kundservice Forseningsersattning Formular","","Thu May 29 04:33:55 UTC 2025","passed","Thu May 29 04:33:57 UTC 2025","Menu","Test Cases","",""
-"","4133","Verify Menu Biljetter Och Priser Vara Biljetter 24timmars","","Thu May 29 04:32:35 UTC 2025","passed","Thu May 29 04:32:40 UTC 2025","Menu","Test Cases","",""
-"","2547","Verify Menu Foretag Att Vara Foretagskund Resekort","","Thu May 29 04:34:50 UTC 2025","passed","Thu May 29 04:34:53 UTC 2025","Menu","Test Cases","",""
-"","2917","Verify Menu Kundservice Forseningsersattning Alternativa Fardmedel","","Thu May 29 04:33:57 UTC 2025","passed","Thu May 29 04:34:00 UTC 2025","Menu","Test Cases","",""
-"","2513","Verify Menu Foretag Vara Tjanster Skicka Biljett","","Thu May 29 04:35:04 UTC 2025","passed","Thu May 29 04:35:06 UTC 2025","Menu","Test Cases","",""
-"Verifierar att Google Play-ikonen/länken finns och fungerar","3572","Verify Footer Google Play Link","","Thu May 29 04:30:54 UTC 2025","passed","Thu May 29 04:30:58 UTC 2025","Footer","Test Cases","",""
-"","3245","Verify Menu Res Med Oss Linjer Hallplatser Och Tidtabeller","","Thu May 29 04:31:52 UTC 2025","passed","Thu May 29 04:31:55 UTC 2025","Menu","Test Cases","",""
-"","2542","Verify Menu Res Med Oss Serviceresor Sjukresor","","Thu May 29 04:31:30 UTC 2025","passed","Thu May 29 04:31:33 UTC 2025","Menu","Test Cases","",""
-"Verifierar att App Store-ikonen/länken finns och fungerar","4022","Verify Footer App Store Link","","Thu May 29 04:30:50 UTC 2025","passed","Thu May 29 04:30:54 UTC 2025","Footer","Test Cases","",""
-"","2457","Verify Menu Kundservice Kontakta Oss Hittat Eller Glomt","","Thu May 29 04:33:36 UTC 2025","passed","Thu May 29 04:33:38 UTC 2025","Menu","Test Cases","",""
-"","2637","Verify Main Menu Res Med Oss","","Thu May 29 04:31:13 UTC 2025","passed","Thu May 29 04:31:15 UTC 2025","Menu","Test Cases","",""
+3. Verify that the received HTTP status code is 200.","9361","Mitt Konto Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 16:24:40 UTC 2025","failed","Thu May 29 16:24:50 UTC 2025","External Dependencies","Test Cases","",""
+"","3368","Verify Main Menu Kundservice","","Thu May 29 16:26:27 UTC 2025","passed","Thu May 29 16:26:31 UTC 2025","Menu","Test Cases","",""
+"","3534","Verify Menu Kundservice Kontakta Oss Aterkop","","Thu May 29 16:29:05 UTC 2025","passed","Thu May 29 16:29:08 UTC 2025","Menu","Test Cases","",""
+"","3367","Verify Menu Oppna Och Stang Meny Button","","Thu May 29 16:26:34 UTC 2025","passed","Thu May 29 16:26:38 UTC 2025","Menu","Test Cases","",""
+"","3671","Verify Menu Kundservice Forseningsersattning","","Thu May 29 16:29:35 UTC 2025","passed","Thu May 29 16:29:38 UTC 2025","Menu","Test Cases","",""
+"","3458","Verify Menu Foretag Vara Tjanster Personalerbjudande","","Thu May 29 16:31:14 UTC 2025","passed","Thu May 29 16:31:18 UTC 2025","Menu","Test Cases","",""
+"","3411","Verify Menu Biljetter Och Priser","","Thu May 29 16:27:44 UTC 2025","passed","Thu May 29 16:27:47 UTC 2025","Menu","Test Cases","",""
+"","4775","Verify Menu Biljetter Och Priser Vara Biljetter Enkelbiljett","","Thu May 29 16:27:51 UTC 2025","passed","Thu May 29 16:27:56 UTC 2025","Menu","Test Cases","",""
+"","3549","Verify Menu Biljetter Och Priser Kop Biljett Ombord Pa Buss Och Tag","","Thu May 29 16:28:50 UTC 2025","passed","Thu May 29 16:28:54 UTC 2025","Menu","Test Cases","",""
+"","3649","Verify Menu Biljetter Och Priser Vara Biljetter Periodbiljett","","Thu May 29 16:28:07 UTC 2025","passed","Thu May 29 16:28:10 UTC 2025","Menu","Test Cases","",""
 "This test verifies that the feedback and complaints form is accessible from the start page,
 that the form iframe is visible, and that the form responds with HTTP status 200.
 Steps:
 1. Navigate to Synpunkter Allmän form and check iframe is visible
 2. Send a GET request to the iframe src
-3. Verify that the received HTTP status code is 200.","3635","Synpunkter Allman Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 04:30:19 UTC 2025","passed","Thu May 29 04:30:23 UTC 2025","External Dependencies","Test Cases","",""
-"","3118","Verify Menu Foretag Vara Tjanster","","Thu May 29 04:34:58 UTC 2025","passed","Thu May 29 04:35:01 UTC 2025","Menu","Test Cases","",""
-"","2480","Verify Menu Biljetter Och Priser Kop Biljett Aktivera Blippa","","Thu May 29 04:33:09 UTC 2025","passed","Thu May 29 04:33:12 UTC 2025","Menu","Test Cases","",""
-"","2581","Verify Menu Om JLT Om Verksamheten Framtiden","","Thu May 29 04:34:19 UTC 2025","passed","Thu May 29 04:34:22 UTC 2025","Menu","Test Cases","",""
-"","2609","Verify Menu Om JLT Tillganglighetsredogorelse Appen","","Thu May 29 04:34:43 UTC 2025","passed","Thu May 29 04:34:45 UTC 2025","Menu","Test Cases","",""
-"","2338","Verify Menu Trafikforandringar","","Thu May 29 04:35:20 UTC 2025","passed","Thu May 29 04:35:23 UTC 2025","Menu","Test Cases","",""
-"Verifierar rubrik och länkar under ""Tjänster"" Mitt Konto","3328","Verify Footer Tjanster Mitt Konto","","Thu May 29 04:30:44 UTC 2025","passed","Thu May 29 04:30:47 UTC 2025","Footer","Test Cases","",""
-"","3310","Verify Menu Foretagsportalen","","Thu May 29 04:35:26 UTC 2025","passed","Thu May 29 04:35:29 UTC 2025","Menu","Test Cases","",""
-"","2233","Verify Menu Oppna Och Stang Meny Button","","Thu May 29 04:31:23 UTC 2025","passed","Thu May 29 04:31:25 UTC 2025","Menu","Test Cases","",""
-"","2849","Verify Menu Res Med Oss Kartor Och Zoner Resor Danmark","","Thu May 29 04:32:01 UTC 2025","passed","Thu May 29 04:32:04 UTC 2025","Menu","Test Cases","",""
-"","2496","Verify Menu Biljetter Och Priser Kop Biljett Kundservicebutik","","Thu May 29 04:33:15 UTC 2025","passed","Thu May 29 04:33:17 UTC 2025","Menu","Test Cases","",""
-"","2899","Verify Menu Biljetter Och Priser Kop Biljett Aterforsaljare","","Thu May 29 04:33:17 UTC 2025","passed","Thu May 29 04:33:20 UTC 2025","Menu","Test Cases","",""
-"","3229","Verify Menu Foretag Logga In Ansok","","Thu May 29 04:35:09 UTC 2025","passed","Thu May 29 04:35:12 UTC 2025","Menu","Test Cases","",""
-"","2541","Verify Menu Res Med Oss Serviceresor Fardtjanst","","Thu May 29 04:31:43 UTC 2025","passed","Thu May 29 04:31:46 UTC 2025","Menu","Test Cases","",""
-"","2762","Verify Menu Biljetter Och Priser Kop Biljett Ombord Pa Buss Och Tag","","Thu May 29 04:33:20 UTC 2025","passed","Thu May 29 04:33:23 UTC 2025","Menu","Test Cases","",""
-"This test checks whether the JLT homepage returns an HTTP status code of 200 (OK).
-Steps:
-1. Check if Homepage is visible
-2. Send a GET request to the JLT homepage.
-3. Verify that the received HTTP status code is 200.","3000","Homepage HTTP Status Code Should Be STATUS_OK (200)","","Thu May 29 04:31:10 UTC 2025","passed","Thu May 29 04:31:13 UTC 2025","Homepage","Test Cases","",""
-"This test checks whether the JLT Foretagsportalen is visible and when clicked, returns an HTTP status code of 200 (OK).
-Steps:
-1. Check if JLT Foretagsportalen is visible
-2. Send a GET request to JLT Foretagsportalen
-3. Verify that the received HTTP status code is 200.","5758","Foretagsportalen Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 04:30:02 UTC 2025","passed","Thu May 29 04:30:08 UTC 2025","External Dependencies","Test Cases","",""
-"","2890","Verify Menu Om JLT Om Verksamheten Sociala Medier","","Thu May 29 04:34:16 UTC 2025","passed","Thu May 29 04:34:19 UTC 2025","Menu","Test Cases","",""
-"","2837","Verify Menu Om JLT","","Thu May 29 04:34:08 UTC 2025","passed","Thu May 29 04:34:11 UTC 2025","Menu","Test Cases","",""
-"Verifierar rubrik och länkar under ""Biljetter och priser""","3483","Verify Footer Biljetter","","Thu May 29 04:30:33 UTC 2025","passed","Thu May 29 04:30:37 UTC 2025","Footer","Test Cases","",""
-"","2610","Verify Menu Om JLT Om Verksamheten Registerutdrag","","Thu May 29 04:34:13 UTC 2025","passed","Thu May 29 04:34:16 UTC 2025","Menu","Test Cases","",""
-"","3903","Verify Menu Biljetter Och Priser","","Thu May 29 04:32:19 UTC 2025","passed","Thu May 29 04:32:23 UTC 2025","Menu","Test Cases","",""
-"","2519","Verify Menu Om JLT Press Media","","Thu May 29 04:34:27 UTC 2025","passed","Thu May 29 04:34:30 UTC 2025","Menu","Test Cases","",""
-"","2418","Verify Menu Kundservice Lamna Synpunkter","","Thu May 29 04:33:41 UTC 2025","passed","Thu May 29 04:33:43 UTC 2025","Menu","Test Cases","",""
-"","3007","Verify Menu Foretag Vara Tjanster Personalerbjudande","","Thu May 29 04:35:06 UTC 2025","passed","Thu May 29 04:35:09 UTC 2025","Menu","Test Cases","",""
-"This test checks:
-1. Performs search
-2. Clicks on search result index 0
-3. Verifies correct page","4262","Search on ""Periodbiljetter"" and land on the correct page","","Thu May 29 04:35:29 UTC 2025","passed","Thu May 29 04:35:34 UTC 2025","Search","Test Cases","",""
-"Verifierar att Facebook-ikonen/länken finns och fungerar","3984","Verify Footer Facebook Icon","","Thu May 29 04:30:58 UTC 2025","passed","Thu May 29 04:31:02 UTC 2025","Footer","Test Cases","",""
-"","2705","Verify Menu Res Med Oss Tillganglighet Och Ledsagning","","Thu May 29 04:32:04 UTC 2025","passed","Thu May 29 04:32:07 UTC 2025","Menu","Test Cases","",""
-"","2703","Verify Main Menu Kundservice","","Thu May 29 04:31:18 UTC 2025","passed","Thu May 29 04:31:20 UTC 2025","Menu","Test Cases","",""
-"","2624","Verify Menu Om JLT Om Verksamheten","","Thu May 29 04:34:11 UTC 2025","passed","Thu May 29 04:34:13 UTC 2025","Menu","Test Cases","",""
-"","3318","Verify Menu Biljetter Och Priser Kop Biljett","","Thu May 29 04:32:54 UTC 2025","passed","Thu May 29 04:32:58 UTC 2025","Menu","Test Cases","",""
-"","2555","Verify Menu Res Med Oss","","Thu May 29 04:31:25 UTC 2025","passed","Thu May 29 04:31:28 UTC 2025","Menu","Test Cases","",""
+3. Verify that the received HTTP status code is 200.","4561","Synpunkter Allman Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 16:25:10 UTC 2025","passed","Thu May 29 16:25:15 UTC 2025","External Dependencies","Test Cases","",""
+"Verifierar att App Store-ikonen/länken finns och fungerar","6531","Verify Footer App Store Link","","Thu May 29 16:25:52 UTC 2025","passed","Thu May 29 16:25:58 UTC 2025","Footer","Test Cases","",""
+"","3508","Verify Menu Res Med Oss Serviceresor Sjukresor","","Thu May 29 16:26:45 UTC 2025","passed","Thu May 29 16:26:48 UTC 2025","Menu","Test Cases","",""
 "This test verifies that the delay compensation form is accessible from the start page,
 that the form iframe is visible, and that the form responds with HTTP status 200.
 Steps:
 1. Navigate to Förseningsersättning form and check iframe is visible
 2. Send a GET request to the iframe src
-3. Verify that the received HTTP status code is 200.","3621","Forseningsersattning Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 04:30:15 UTC 2025","passed","Thu May 29 04:30:19 UTC 2025","External Dependencies","Test Cases","",""
+3. Verify that the received HTTP status code is 200.","4537","Forseningsersattning Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 16:25:06 UTC 2025","passed","Thu May 29 16:25:10 UTC 2025","External Dependencies","Test Cases","",""
+"","3405","Verify Menu Res Med Oss","","Thu May 29 16:26:38 UTC 2025","passed","Thu May 29 16:26:41 UTC 2025","Menu","Test Cases","",""
+"","3615","Verify Menu Biljetter Och Priser Kop Biljett Appen","","Thu May 29 16:28:21 UTC 2025","passed","Thu May 29 16:28:25 UTC 2025","Menu","Test Cases","",""
+"Verifierar att Facebook-ikonen/länken finns och fungerar","4298","Verify Footer Facebook Icon","","Thu May 29 16:26:02 UTC 2025","passed","Thu May 29 16:26:07 UTC 2025","Footer","Test Cases","",""
+"This test checks whether the JLT homepage Reseplanerare is visible and returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if Reseplanerare is visible
+2. Send a GET request to JLT homepage Reseplanerare.
+3. Verify that the received HTTP status code is 200.","5288","Reseplanerare Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 16:24:35 UTC 2025","passed","Thu May 29 16:24:40 UTC 2025","External Dependencies","Test Cases","",""
+"","3854","Verify Menu Om JLT Om Verksamheten Framtiden","","Thu May 29 16:30:09 UTC 2025","passed","Thu May 29 16:30:12 UTC 2025","Menu","Test Cases","",""
+"This test verifies that the feedback and complaints form is accessible from the start page,
+that the form iframe is visible, and that the form responds with HTTP status 200.
+Steps:
+1. Navigate to Synpunkter Serviceresor form and check iframe is visible
+2. Send a GET request to the iframe src
+3. Verify that the received HTTP status code is 200.","4414","Synpunkter Serviceresor Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 16:25:15 UTC 2025","passed","Thu May 29 16:25:19 UTC 2025","External Dependencies","Test Cases","",""
+"","3670","Verify Menu Biljetter Och Priser Vara Biljetter Skolbiljett","","Thu May 29 16:28:14 UTC 2025","passed","Thu May 29 16:28:18 UTC 2025","Menu","Test Cases","",""
+"","3552","Verify Menu Om JLT","","Thu May 29 16:29:54 UTC 2025","passed","Thu May 29 16:29:58 UTC 2025","Menu","Test Cases","",""
+"","3752","Verify Menu Biljetter Och Priser Vara Biljetter 24timmars","","Thu May 29 16:27:59 UTC 2025","passed","Thu May 29 16:28:03 UTC 2025","Menu","Test Cases","",""
+"","3593","Verify Menu Om JLT Om Verksamheten Sociala Medier","","Thu May 29 16:30:05 UTC 2025","passed","Thu May 29 16:30:09 UTC 2025","Menu","Test Cases","",""
+"","3715","Verify Menu Res Med Oss Serviceresor Nartrafik Huskvarnasnurren","","Thu May 29 16:26:59 UTC 2025","passed","Thu May 29 16:27:03 UTC 2025","Menu","Test Cases","",""
+"This test checks:
+1. Performs search
+2. Clicks on search result index 0
+3. Verifies correct page","5233","Search on ""Ge bort biljett"" and land on the correct page","","Thu May 29 16:31:51 UTC 2025","passed","Thu May 29 16:31:57 UTC 2025","Search","Test Cases","",""
+"","3745","Verify Menu Res Med Oss Kartor Och Zoner Kommersiell Trafik","","Thu May 29 16:27:21 UTC 2025","passed","Thu May 29 16:27:25 UTC 2025","Menu","Test Cases","",""
+"Verifierar att LinkedIn-ikonen/länken finns och fungerar","4536","Verify Footer LinkedIn Icon","","Thu May 29 16:26:11 UTC 2025","passed","Thu May 29 16:26:16 UTC 2025","Footer","Test Cases","",""
+"","3710","Verify Menu Res Med Oss Tillganglighet Ledsagning Tidtabeller","","Thu May 29 16:27:32 UTC 2025","passed","Thu May 29 16:27:36 UTC 2025","Menu","Test Cases","",""
+"","3582","Verify Menu Om JLT Var Trafik","","Thu May 29 16:30:16 UTC 2025","passed","Thu May 29 16:30:20 UTC 2025","Menu","Test Cases","",""
+"","3484","Verify Menu Foretag Fragor Och Svar Bestall Resekort","","Thu May 29 16:31:26 UTC 2025","passed","Thu May 29 16:31:30 UTC 2025","Menu","Test Cases","",""
+"","3794","Verify Menu Res Med Oss Serviceresor Fardtjanst Efaktura Och Autogiro","","Thu May 29 16:27:10 UTC 2025","passed","Thu May 29 16:27:14 UTC 2025","Menu","Test Cases","",""
+"","3642","Verify Menu Om JLT Tillganglighetsredogorelse Mitt Konto","","Thu May 29 16:30:38 UTC 2025","passed","Thu May 29 16:30:41 UTC 2025","Menu","Test Cases","",""
+"Verifierar rubrik och länkar under ""Biljetter och priser""","4861","Verify Footer Biljetter","","Thu May 29 16:25:28 UTC 2025","passed","Thu May 29 16:25:33 UTC 2025","Footer","Test Cases","",""
+"","4058","Verify Menu Res Med Oss Tillganglighet Ledsagning Barnvagn","","Thu May 29 16:27:36 UTC 2025","passed","Thu May 29 16:27:40 UTC 2025","Menu","Test Cases","",""
+"This test checks whether the JLT Foretagsportalen is visible and when clicked, returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if JLT Foretagsportalen is visible
+2. Send a GET request to JLT Foretagsportalen
+3. Verify that the received HTTP status code is 200.","6784","Foretagsportalen Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 16:24:50 UTC 2025","passed","Thu May 29 16:24:57 UTC 2025","External Dependencies","Test Cases","",""
+"","3612","Verify Menu Biljetter Och Priser Kop Biljett Kundservicebutik","","Thu May 29 16:28:43 UTC 2025","passed","Thu May 29 16:28:47 UTC 2025","Menu","Test Cases","",""
+"","3757","Verify Menu Om JLT Cookies","","Thu May 29 16:30:27 UTC 2025","passed","Thu May 29 16:30:30 UTC 2025","Menu","Test Cases","",""
+"","3658","Verify Menu Res Med Oss Tillganglighet Ledsagning Stationer","","Thu May 29 16:27:40 UTC 2025","passed","Thu May 29 16:27:44 UTC 2025","Menu","Test Cases","",""
+"","3653","Verify Menu Foretag Att Vara Foretagskund","","Thu May 29 16:30:49 UTC 2025","passed","Thu May 29 16:30:53 UTC 2025","Menu","Test Cases","",""
+"","3461","Verify Menu Biljetter Och Priser Kop Biljett","","Thu May 29 16:28:18 UTC 2025","passed","Thu May 29 16:28:21 UTC 2025","Menu","Test Cases","",""
+"","3575","Verify Menu Biljetter Och Priser Vara Biljetter Periodbiljett Seniorrabatt","","Thu May 29 16:28:10 UTC 2025","passed","Thu May 29 16:28:14 UTC 2025","Menu","Test Cases","",""
+"","3706","Verify Menu Biljetter Och Priser Aldersgranser Och Rabatter","","Thu May 29 16:28:54 UTC 2025","passed","Thu May 29 16:28:58 UTC 2025","Menu","Test Cases","",""
+"","3558","Verify Menu Foretag Att Vara Foretagskund Fakturering","","Thu May 29 16:30:56 UTC 2025","passed","Thu May 29 16:31:00 UTC 2025","Menu","Test Cases","",""
+"","3618","Verify Menu Biljetter Och Priser Kop Biljett Appen Ge Bort Din Biljett","","Thu May 29 16:28:25 UTC 2025","passed","Thu May 29 16:28:28 UTC 2025","Menu","Test Cases","",""
+"","3376","Verify Menu Res Med Oss Kartor Och Zoner","","Thu May 29 16:27:18 UTC 2025","passed","Thu May 29 16:27:21 UTC 2025","Menu","Test Cases","",""
+"","3623","Verify Menu Kundservice Lamna Synpunkter Kundpanel","","Thu May 29 16:29:23 UTC 2025","passed","Thu May 29 16:29:27 UTC 2025","Menu","Test Cases","",""
+"","3599","Verify Menu Om JLT Tillganglighetsredogorelse JLTse","","Thu May 29 16:30:34 UTC 2025","passed","Thu May 29 16:30:38 UTC 2025","Menu","Test Cases","",""
+"Verifierar rubrik och länkar under ""Resa""","5203","Verify Footer Resa","","Thu May 29 16:25:23 UTC 2025","passed","Thu May 29 16:25:28 UTC 2025","Footer","Test Cases","",""
+"Verifierar rubrik och länkar under ""Tjänster"" Nyheter","3678","Verify Footer Tjanster Nyheter","","Thu May 29 16:25:48 UTC 2025","passed","Thu May 29 16:25:52 UTC 2025","Footer","Test Cases","",""
+"","3533","Verify Menu Biljetter Och Priser Kop Biljett Mitt Konto","","Thu May 29 16:28:40 UTC 2025","passed","Thu May 29 16:28:43 UTC 2025","Menu","Test Cases","",""
+"","3944","Verify Menu Kundservice Lamna Synpunkter Serviceresor","","Thu May 29 16:29:27 UTC 2025","passed","Thu May 29 16:29:31 UTC 2025","Menu","Test Cases","",""
+"","3501","Verify Menu Biljetter Och Priser Vara Biljetter","","Thu May 29 16:27:47 UTC 2025","passed","Thu May 29 16:27:51 UTC 2025","Menu","Test Cases","",""
+"","3664","Verify Menu Res Med Oss Serviceresor Nartrafik Oasvangen","","Thu May 29 16:26:55 UTC 2025","passed","Thu May 29 16:26:59 UTC 2025","Menu","Test Cases","",""
+"","4295","Verify Menu Kundservice Kontakta Oss Hittat Eller Glomt","","Thu May 29 16:29:12 UTC 2025","passed","Thu May 29 16:29:16 UTC 2025","Menu","Test Cases","",""
+"","4428","Verify Menu Mitt Konto","","Thu May 29 16:31:37 UTC 2025","passed","Thu May 29 16:31:41 UTC 2025","Menu","Test Cases","",""
+"","3459","Verify Menu Kundservice Kontakta Oss","","Thu May 29 16:29:01 UTC 2025","passed","Thu May 29 16:29:05 UTC 2025","Menu","Test Cases","",""
+"Verifierar att Instagram-ikonen/länken finns och fungerar","4600","Verify Footer Instagram Icon","","Thu May 29 16:26:07 UTC 2025","failed","Thu May 29 16:26:11 UTC 2025","Footer","Test Cases","",""
+"This test checks whether the JLT Kundforum is visible and when clicked, returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if JLT Kundforum is visible
+2. Send a GET request to JLT Kundforum
+3. Verify that the received HTTP status code is 200.","9078","Kundforum Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Thu May 29 16:24:57 UTC 2025","failed","Thu May 29 16:25:06 UTC 2025","External Dependencies","Test Cases","",""
+"Verifierar rubrik och länkar under ""Om oss""","5852","Verify Footer Om Oss","","Thu May 29 16:25:37 UTC 2025","passed","Thu May 29 16:25:43 UTC 2025","Footer","Test Cases","",""
+"","3458","Verify Main Menu Biljetter Och Priser","","Thu May 29 16:26:24 UTC 2025","passed","Thu May 29 16:26:27 UTC 2025","Menu","Test Cases","",""
+"","3394","Verify Menu Foretag Vara Tjanster","","Thu May 29 16:31:04 UTC 2025","passed","Thu May 29 16:31:07 UTC 2025","Menu","Test Cases","",""
+"","3552","Verify Menu Om JLT Press Media","","Thu May 29 16:30:20 UTC 2025","passed","Thu May 29 16:30:23 UTC 2025","Menu","Test Cases","",""
+"","3429","Verify Menu Sok","","Thu May 29 16:31:30 UTC 2025","passed","Thu May 29 16:31:33 UTC 2025","Menu","Test Cases","",""
+"Verifierar att Google Play-ikonen/länken finns och fungerar","4237","Verify Footer Google Play Link","","Thu May 29 16:25:58 UTC 2025","passed","Thu May 29 16:26:02 UTC 2025","Footer","Test Cases","",""
+"","3574","Verify Menu Kundservice Forseningsersattning Formular","","Thu May 29 16:29:38 UTC 2025","passed","Thu May 29 16:29:42 UTC 2025","Menu","Test Cases","",""
+"","3592","Verify Menu Kundservice Kontakta Oss Forlustgaranti","","Thu May 29 16:29:08 UTC 2025","passed","Thu May 29 16:29:12 UTC 2025","Menu","Test Cases","",""
+"This test checks:
+1. Performs search
+2. Clicks on search result index 0
+3. Verifies correct page","5614","Search on ""Periodbiljetter"" and land on the correct page","","Thu May 29 16:31:46 UTC 2025","passed","Thu May 29 16:31:51 UTC 2025","Search","Test Cases","",""
+"","3746","Verify Menu Res Med Oss Linjer Hallplatser Och Tidtabeller","","Thu May 29 16:27:14 UTC 2025","passed","Thu May 29 16:27:18 UTC 2025","Menu","Test Cases","",""
+"","3629","Verify Menu Res Med Oss Serviceresor Nartrafik","","Thu May 29 16:26:52 UTC 2025","passed","Thu May 29 16:26:55 UTC 2025","Menu","Test Cases","",""
+"","3426","Verify Menu Trafikforandringar","","Thu May 29 16:31:33 UTC 2025","passed","Thu May 29 16:31:36 UTC 2025","Menu","Test Cases","",""
+"","3675","Verify Menu Foretag Att Vara Foretagskund Priser","","Thu May 29 16:31:00 UTC 2025","passed","Thu May 29 16:31:04 UTC 2025","Menu","Test Cases","",""
+"","3960","Verify Menu Foretag","","Thu May 29 16:30:45 UTC 2025","passed","Thu May 29 16:30:49 UTC 2025","Menu","Test Cases","",""
+"","3632","Verify Menu Om JLT Tillganglighetsredogorelse","","Thu May 29 16:30:31 UTC 2025","passed","Thu May 29 16:30:34 UTC 2025","Menu","Test Cases","",""
+"Verifierar rubrik och länkar under ""Kundservice""","4475","Verify Footer Kundservice","","Thu May 29 16:25:33 UTC 2025","passed","Thu May 29 16:25:37 UTC 2025","Footer","Test Cases","",""
+"","3648","Verify Menu Biljetter Och Priser Kop Biljett Appen Lana Ut","","Thu May 29 16:28:28 UTC 2025","passed","Thu May 29 16:28:32 UTC 2025","Menu","Test Cases","",""
+"","3597","Verify Menu Biljetter Och Priser Kop Biljett Aktivera Blippa","","Thu May 29 16:28:36 UTC 2025","passed","Thu May 29 16:28:40 UTC 2025","Menu","Test Cases","",""
+"","3556","Verify Menu Res Med Oss Serviceresor Sjukresor Halsoskal","","Thu May 29 16:26:48 UTC 2025","passed","Thu May 29 16:26:52 UTC 2025","Menu","Test Cases","",""
+"","3652","Verify Menu Biljetter Och Priser Vara Biljetter Flexbiljett","","Thu May 29 16:28:03 UTC 2025","passed","Thu May 29 16:28:07 UTC 2025","Menu","Test Cases","",""
+"","4598","Verify Menu Foretagsportalen","","Thu May 29 16:31:41 UTC 2025","passed","Thu May 29 16:31:46 UTC 2025","Menu","Test Cases","",""
+"","3611","Verify Menu Res Med Oss Serviceresor Fardtjanst Ansok Om Aterkommande Resor","","Thu May 29 16:27:07 UTC 2025","passed","Thu May 29 16:27:10 UTC 2025","Menu","Test Cases","",""
+"","3601","Verify Menu Kundservice","","Thu May 29 16:28:58 UTC 2025","passed","Thu May 29 16:29:01 UTC 2025","Menu","Test Cases","",""
+"","3500","Verify Menu Biljetter Och Priser Kop Biljett Aterforsaljare","","Thu May 29 16:28:47 UTC 2025","passed","Thu May 29 16:28:50 UTC 2025","Menu","Test Cases","",""
+"","8516","Verify Menu Kundservice Fragor Och Svar","","Thu May 29 16:29:46 UTC 2025","failed","Thu May 29 16:29:54 UTC 2025","Menu","Test Cases","",""
+"","4767","Verify Menu Foretag Fragor Och Svar","","Thu May 29 16:31:21 UTC 2025","passed","Thu May 29 16:31:26 UTC 2025","Menu","Test Cases","",""
+"","3479","Verify Main Menu Foretag","","Thu May 29 16:26:31 UTC 2025","passed","Thu May 29 16:26:34 UTC 2025","Menu","Test Cases","",""
+"","3489","Verify Menu Kundservice Lamna Synpunkter","","Thu May 29 16:29:20 UTC 2025","passed","Thu May 29 16:29:23 UTC 2025","Menu","Test Cases","",""
+"","3546","Verify Menu Res Med Oss Serviceresor","","Thu May 29 16:26:41 UTC 2025","passed","Thu May 29 16:26:45 UTC 2025","Menu","Test Cases","",""
+"Verifierar att alla röda kontaktblock och telefonnummer visas korrekt","3213","Verify Footer Contact Blocks","","Thu May 29 16:25:19 UTC 2025","passed","Thu May 29 16:25:23 UTC 2025","Footer","Test Cases","",""
+"","3489","Verify Menu Om JLT Lediga Tjanster","","Thu May 29 16:30:23 UTC 2025","passed","Thu May 29 16:30:27 UTC 2025","Menu","Test Cases","",""
+"","3607","Verify Menu Kundservice Lamna Synpunkter Allman","","Thu May 29 16:29:31 UTC 2025","passed","Thu May 29 16:29:34 UTC 2025","Menu","Test Cases","",""
+"","3523","Verify Menu Res Med Oss Tillganglighet Och Ledsagning","","Thu May 29 16:27:29 UTC 2025","passed","Thu May 29 16:27:32 UTC 2025","Menu","Test Cases","",""
+"","3497","Verify Menu Foretag Vara Tjanster Skicka Biljett","","Thu May 29 16:31:11 UTC 2025","passed","Thu May 29 16:31:14 UTC 2025","Menu","Test Cases","",""
+"","3720","Verify Menu Foretag Vara Tjanster Tjansteresor","","Thu May 29 16:31:07 UTC 2025","passed","Thu May 29 16:31:11 UTC 2025","Menu","Test Cases","",""
+"This test checks whether the JLT homepage returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if Homepage is visible
+2. Send a GET request to the JLT homepage.
+3. Verify that the received HTTP status code is 200.","4440","Homepage HTTP Status Code Should Be STATUS_OK (200)","","Thu May 29 16:26:16 UTC 2025","passed","Thu May 29 16:26:20 UTC 2025","Homepage","Test Cases","",""
+"","3635","Verify Menu Biljetter Och Priser Vara Biljetter Enkelbiljett Kundkassa","","Thu May 29 16:27:56 UTC 2025","passed","Thu May 29 16:27:59 UTC 2025","Menu","Test Cases","",""
+"","3665","Verify Menu Om JLT Om Verksamheten Registerutdrag","","Thu May 29 16:30:01 UTC 2025","passed","Thu May 29 16:30:05 UTC 2025","Menu","Test Cases","",""
+"","3722","Verify Menu Res Med Oss Serviceresor Fardtjanst","","Thu May 29 16:27:03 UTC 2025","passed","Thu May 29 16:27:06 UTC 2025","Menu","Test Cases","",""
+"","3553","Verify Menu Foretag Logga In Ansok","","Thu May 29 16:31:18 UTC 2025","passed","Thu May 29 16:31:21 UTC 2025","Menu","Test Cases","",""
