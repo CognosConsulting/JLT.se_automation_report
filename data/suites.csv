@@ -1,0 +1,59 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"This test verifies that the feedback and complaints form is accessible from the start page,
+that the form iframe is visible, and that the form responds with HTTP status 200.
+Steps:
+1. Navigate to Synpunkter Allmän form and check iframe is visible
+2. Send a GET request to the iframe src
+3. Verify that the received HTTP status code is 200.","4154","Synpunkter Allman Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed Jun 04 12:55:29 UTC 2025","passed","Wed Jun 04 12:55:33 UTC 2025","","External Dependencies","",""
+"Gå till aktuell sida, kontrollera att formuläret är synligt, och att Friendly Captcha är synligt.
+Steps:
+1. Navigate to Felanmalan Systemteknik, applikationer och trafikdata form and check iframe is visible
+2. Check if Friendly Captcha is visible
+3. Verify that the received HTTP status code is 200.","3593","Felanmalan Systemteknik, applikationer och trafikdata Form and Captcha Should Be Visible","","Wed Jun 04 12:55:52 UTC 2025","passed","Wed Jun 04 12:55:55 UTC 2025","","External Dependencies","",""
+"This test verifies that the feedback and complaints form is accessible from the start page,
+that the form iframe is visible, and that the form responds with HTTP status 200.
+Steps:
+1. Navigate to Synpunkter Serviceresor form and check iframe is visible
+2. Send a GET request to the iframe src
+3. Verify that the received HTTP status code is 200.","4299","Synpunkter Serviceresor Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed Jun 04 12:55:33 UTC 2025","passed","Wed Jun 04 12:55:37 UTC 2025","","External Dependencies","",""
+"Gå till aktuell sida, kontrollera att formuläret är synligt, och att Friendly Captcha är synligt.
+Steps:
+1. Navigate to Felanmalan återförsäljare form and check iframe is visible
+2. Check if Friendly Captcha is visible
+3. Verify that the received HTTP status code is 200.","3722","Felanmalan återförsäljare Form and Captcha Should Be Visible","","Wed Jun 04 12:55:48 UTC 2025","passed","Wed Jun 04 12:55:52 UTC 2025","","External Dependencies","",""
+"This test checks whether the JLT homepage Reseplanerare is visible and returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if Reseplanerare is visible
+2. Send a GET request to JLT homepage Reseplanerare.
+3. Verify that the received HTTP status code is 200.","4266","Reseplanerare Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed Jun 04 12:55:09 UTC 2025","passed","Wed Jun 04 12:55:13 UTC 2025","","External Dependencies","",""
+"Gå till aktuell sida, kontrollera att formuläret är synligt, och att Friendly Captcha är synligt.
+Steps:
+1. Navigate to Felanmalan Handenhet form and check iframe is visible
+2. Check if Friendly Captcha is visible
+3. Verify that the received HTTP status code is 200.","3928","Felanmalan Handenhet Form and Captcha Should Be Visible","","Wed Jun 04 12:55:41 UTC 2025","passed","Wed Jun 04 12:55:45 UTC 2025","","External Dependencies","",""
+"Gå till aktuell sida, kontrollera att formuläret är synligt, och att Friendly Captcha är synligt.
+Steps:
+1. Navigate to Felanmalan Buss form and check iframe is visible
+2. Check if Friendly Captcha is visible
+3. Verify that the received HTTP status code is 200.","3464","Felanmalan Buss Form and Captcha Should Be Visible","","Wed Jun 04 12:55:45 UTC 2025","passed","Wed Jun 04 12:55:48 UTC 2025","","External Dependencies","",""
+"This test checks whether the JLT Foretagsportalen is visible and when clicked, returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if JLT Foretagsportalen is visible
+2. Send a GET request to JLT Foretagsportalen
+3. Verify that the received HTTP status code is 200.","6127","Foretagsportalen Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed Jun 04 12:55:18 UTC 2025","passed","Wed Jun 04 12:55:24 UTC 2025","","External Dependencies","",""
+"This test checks whether the JLT Mitt Konto is visible and when clicked, returns an HTTP status code of 200 (OK).
+Steps:
+1. Check if JLT Mitt Konto is visible
+2. Send a GET request to JLT Mitt Konto
+3. Verify that the received HTTP status code is 200.","5251","Mitt Konto Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed Jun 04 12:55:13 UTC 2025","passed","Wed Jun 04 12:55:18 UTC 2025","","External Dependencies","",""
+"This test verifies that the delay compensation form is accessible from the start page,
+that the form iframe is visible, and that the form responds with HTTP status 200.
+Steps:
+1. Navigate to Förseningsersättning form and check iframe is visible
+2. Send a GET request to the iframe src
+3. Verify that the received HTTP status code is 200.","4062","Forseningsersattning Form Should Be Visible and Have HTTP Status Code STATUS_OK (200)","","Wed Jun 04 12:55:24 UTC 2025","passed","Wed Jun 04 12:55:28 UTC 2025","","External Dependencies","",""
+"Gå till aktuell sida, kontrollera att formuläret är synligt, och att Friendly Captcha är synligt.
+Steps:
+1. Navigate to Felanmalan Biljettautomat form and check iframe is visible
+2. Check if Friendly Captcha is visible
+3. Verify that the received HTTP status code is 200.","3607","Felanmalan Biljettautomat Form and Captcha Should Be Visible","","Wed Jun 04 12:55:37 UTC 2025","passed","Wed Jun 04 12:55:41 UTC 2025","","External Dependencies","",""
