@@ -1,87 +1,58 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "Test steps:
-1. Check if JLT Foretagsportalen is visible
-2. Send a GET request to JLT Foretagsportalen.
-3. Verify that the received HTTP status code is 200.","5616","Verify Foretagsportalen Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 04:38:59 UTC 2025","passed","Wed Jul 02 04:39:05 UTC 2025","Health Check External Resources","Test Suites","",""
+1. Verify header biljetter och priser is visible and clickable
+2. Verify navigation to biljetter och priser URL","3248","Verify Header Biljetter Och Priser","","Wed Jul 02 11:39:55 UTC 2025","passed","Wed Jul 02 11:39:58 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 3) is visible and clickable
 3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify expandera under meny (index 5) is visible and clickable
-5. Verify hållbarhet menu item is visible and clickable
-6. Verify navigation to hållbarhet URL","3265","Verify Menu Om JLT Om Verksamheten Hallbarhet","","Wed Jul 02 04:45:07 UTC 2025","passed","Wed Jul 02 04:45:10 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify footer app store is visible and clickable","4072","Verify Footer App Store Link","","Wed Jul 02 04:41:31 UTC 2025","passed","Wed Jul 02 04:41:35 UTC 2025","Page Footer","Test Suites","",""
-"Test steps:
-1. Check if JLT Mitt Konto is visible
-2. Send a GET request to JLT Mitt Konto.
-3. Verify that the received HTTP status code is 200.","5058","Verify Mitt Konto Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 04:38:54 UTC 2025","passed","Wed Jul 02 04:38:59 UTC 2025","Health Check External Resources","Test Suites","",""
+4. Verify press media menu item is visible and clickable
+5. Verify navigation to press media URL","3399","Verify Menu Om JLT Press Media","","Wed Jul 02 11:43:41 UTC 2025","passed","Wed Jul 02 11:43:45 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 1) is visible and clickable
-4. Verify sjukresor menu item is visible and clickable
-5. Verify navigation to sjukresor URL","3451","Verify Menu Res Med Oss Serviceresor Sjukresor","","Wed Jul 02 04:42:21 UTC 2025","passed","Wed Jul 02 04:42:25 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Reload the page
-2. Wait for 2 seconds to let JavaScript run
-3. Get console warnings
-4. Log warnings","5086","Log Console Warnings","","Wed Jul 02 04:38:46 UTC 2025","passed","Wed Jul 02 04:38:51 UTC 2025","Health Check Console","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 1) is visible and clickable
-4. Verify närtrafik menu item is visible and clickable
-5. Verify navigation to närtrafik URL","2815","Verify Menu Res Med Oss Serviceresor Nartrafik","","Wed Jul 02 04:42:28 UTC 2025","passed","Wed Jul 02 04:42:31 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify expandera under meny (index 4) is visible and clickable
-5. Verify låna ut menu item is visible and clickable
-6. Verify navigation to låna ut URL","2924","Verify Menu Biljetter Och Priser Kop Biljett Appen Lana Ut","","Wed Jul 02 04:43:49 UTC 2025","passed","Wed Jul 02 04:43:52 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify ombord på buss och tåg menu item is visible and clickable
-5. Verify navigation to ombord på buss och tåg URL","3204","Verify Menu Biljetter Och Priser Kop Biljett Ombord Pa Buss Och Tag","","Wed Jul 02 04:44:08 UTC 2025","passed","Wed Jul 02 04:44:12 UTC 2025","Page Header And Menu","Test Suites","",""
-"This test checks:
-1. Navigates to search page
-2. Performs search
-3. Verifies result
-4. Verifies pagination
-5. Goes back and verifies result again","5504","Verify Search on Biljett And Pagination On Searchpage","","Wed Jul 02 04:49:08 UTC 2025","passed","Wed Jul 02 04:49:14 UTC 2025","Page Search","Test Suites","",""
-"Test steps:
-1. Resenärskategori: Vuxen
-2. Resväg: Jönköping Juneporten - Huskvarna Esplanaden
-3. Resvanor: 2/dag, 5/vecka, 4/månad, 12/år
-4. Beräkna pris
-5. Verifiera att det kommer 2 förslag
-6. Verifiera att det kommer rätt förslag
-7. Verifiera knappen ""Läs mer om biljettyp""","24875","Verify Biljettvaljaren E2E Case 1","","Wed Jul 02 04:40:05 UTC 2025","passed","Wed Jul 02 04:40:29 UTC 2025","Page Biljettvaljaren","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 3) is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
 3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify expandera under meny (index 5) is visible and clickable
-5. Verify framtiden menu item is visible and clickable
-6. Verify navigation to framtiden URL","2999","Verify Menu Om JLT Om Verksamheten Framtiden","","Wed Jul 02 04:45:04 UTC 2025","passed","Wed Jul 02 04:45:07 UTC 2025","Page Header And Menu","Test Suites","",""
+4. Verify kundpanel menu item is visible and clickable
+5. Verify navigation to kundpanel URL","3278","Verify Menu Kundservice Lamna Synpunkter Kundpanel","","Wed Jul 02 11:42:56 UTC 2025","passed","Wed Jul 02 11:43:00 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify tillgänglighet och ledsagning menu item is visible and clickable
-4. Verify navigation to tillgänglighet och ledsagning URL","3000","Verify Menu Res Med Oss Tillganglighet Och Ledsagning","","Wed Jul 02 04:42:58 UTC 2025","passed","Wed Jul 02 04:43:01 UTC 2025","Page Header And Menu","Test Suites","",""
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 2) is visible and clickable
+4. Verify 24 timmars menu item is visible and clickable
+5. Verify navigation to 24 timmars URL","3496","Verify Menu Biljetter Och Priser Vara Biljetter 24timmars","","Wed Jul 02 11:41:36 UTC 2025","passed","Wed Jul 02 11:41:39 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
-2. Verify trafikförändringar menu item is visible and clickable
-3. Verify navigation to trafikförändringar URL","2847","Verify Menu Trafikforandringar","","Wed Jul 02 04:46:12 UTC 2025","passed","Wed Jul 02 04:46:15 UTC 2025","Page Header And Menu","Test Suites","",""
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify biljettautomater menu item is visible and clickable
+5. Verify navigation to biljettautomater URL","3428","Verify Menu Biljetter Och Priser Kop Biljett Biljettautomater","","Wed Jul 02 11:42:08 UTC 2025","passed","Wed Jul 02 11:42:11 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 4) is visible and clickable
 3. Verify expandera under meny (index 6) is visible and clickable
 4. Verify tjänsteresor menu item is visible and clickable
-5. Verify navigation to tjänsteresor URL","2703","Verify Menu Foretag Vara Tjanster Tjansteresor","","Wed Jul 02 04:45:52 UTC 2025","passed","Wed Jul 02 04:45:55 UTC 2025","Page Header And Menu","Test Suites","",""
+5. Verify navigation to tjänsteresor URL","3414","Verify Menu Foretag Vara Tjanster Tjansteresor","","Wed Jul 02 11:44:27 UTC 2025","passed","Wed Jul 02 11:44:31 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Reload the page
+2. Wait for 2 seconds to let JavaScript run
+3. Get console warnings
+4. Log warnings","5245","Log Console Warnings","","Wed Jul 02 11:36:24 UTC 2025","passed","Wed Jul 02 11:36:29 UTC 2025","Health Check Console","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify kundservicebutik menu item is visible and clickable
+5. Verify navigation to kundservicebutik URL","3300","Verify Menu Biljetter Och Priser Kop Biljett Kundservicebutik","","Wed Jul 02 11:42:19 UTC 2025","passed","Wed Jul 02 11:42:22 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Check if JLT Foretagsportalen is visible
+2. Send a GET request to JLT Foretagsportalen.
+3. Verify that the received HTTP status code is 200.","6532","Verify Foretagsportalen Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 11:36:39 UTC 2025","passed","Wed Jul 02 11:36:45 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify återköp menu item is visible and clickable
+5. Verify navigation to återköp URL","3490","Verify Menu Kundservice Kontakta Oss Aterkop","","Wed Jul 02 11:42:39 UTC 2025","passed","Wed Jul 02 11:42:43 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 0) is visible and clickable
@@ -89,213 +60,336 @@
 4. Verify expandera under meny (index 3) is visible and clickable
 5. Verify expandera under meny (index 4) is visible and clickable
 6. Verify efaktura och autogiro menu item is visible and clickable
-7. Verify navigation to efaktura och autogiro URL","2985","Verify Menu Res Med Oss Serviceresor Fardtjanst Efaktura Och Autogiro","","Wed Jul 02 04:42:43 UTC 2025","passed","Wed Jul 02 04:42:46 UTC 2025","Page Header And Menu","Test Suites","",""
+7. Verify navigation to efaktura och autogiro URL","3641","Verify Menu Res Med Oss Serviceresor Fardtjanst Efaktura Och Autogiro","","Wed Jul 02 11:40:50 UTC 2025","passed","Wed Jul 02 11:40:53 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify hittat eller glömt menu item is visible and clickable
-5. Verify navigation to hittat eller glömt URL","2764","Verify Menu Kundservice Kontakta Oss Hittat Eller Glomt","","Wed Jul 02 04:44:26 UTC 2025","passed","Wed Jul 02 04:44:28 UTC 2025","Page Header And Menu","Test Suites","",""
+2. Verify expandera under meny (index 3) is visible and clickable
+3. Verify expandera under meny (index 4) is visible and clickable
+4. Verify vår trafik menu item is visible and clickable
+5. Verify navigation to vår trafik URL","3372","Verify Menu Om JLT Var Trafik","","Wed Jul 02 11:43:38 UTC 2025","passed","Wed Jul 02 11:43:41 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
-1. Verify that Kundpanel Puff is visible","2374","Verify Homepage Kundpanel Puff Is Visible","","Wed Jul 02 04:47:04 UTC 2025","passed","Wed Jul 02 04:47:06 UTC 2025","Page Homepage","Test Suites","",""
+1. Verify header kundservice is visible and clickable
+2. Verify navigation to kundservice URL","3119","Verify Header Kundservice","","Wed Jul 02 11:39:58 UTC 2025","passed","Wed Jul 02 11:40:02 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
-1. Reload the page
-2. Wait for 2 seconds to let JavaScript run
-3. Get console errors
-4. Verify that there are no errors","4799","Verify Console Errors","","Wed Jul 02 04:38:41 UTC 2025","passed","Wed Jul 02 04:38:46 UTC 2025","Health Check Console","Test Suites","",""
+1. Verify all contact blocks are visible","3712","Verify Footer Contact Blocks","","Wed Jul 02 11:38:55 UTC 2025","passed","Wed Jul 02 11:38:58 UTC 2025","Page Footer","Test Suites","",""
 "Test steps:
-1. Verify footer google play is visible and clickable","3561","Verify Footer Google Play Link","","Wed Jul 02 04:41:35 UTC 2025","passed","Wed Jul 02 04:41:39 UTC 2025","Page Footer","Test Suites","",""
+1. Check if big-button-container is visible","2867","Verify Homepage Big-button-container Is Visible","","Wed Jul 02 11:45:13 UTC 2025","passed","Wed Jul 02 11:45:16 UTC 2025","Page Homepage","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify kartor och zoner menu item is visible and clickable
-4. Verify navigation to kartor och zoner URL","3036","Verify Menu Res Med Oss Kartor Och Zoner","","Wed Jul 02 04:42:49 UTC 2025","passed","Wed Jul 02 04:42:52 UTC 2025","Page Header And Menu","Test Suites","",""
+3. Verify tillgänglighet och ledsagning menu item is visible and clickable
+4. Verify navigation to tillgänglighet och ledsagning URL","3563","Verify Menu Res Med Oss Tillganglighet Och Ledsagning","","Wed Jul 02 11:41:08 UTC 2025","passed","Wed Jul 02 11:41:11 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify serviceresor menu item is visible and clickable
-5. Verify navigation to serviceresor URL","2837","Verify Menu Kundservice Lamna Synpunkter Serviceresor","","Wed Jul 02 04:44:37 UTC 2025","passed","Wed Jul 02 04:44:40 UTC 2025","Page Header And Menu","Test Suites","",""
+2. Verify mitt konto menu item is visible and clickable
+3. Verify navigation to mitt konto URL","3507","Verify Menu Mitt Konto","","Wed Jul 02 11:44:55 UTC 2025","passed","Wed Jul 02 11:44:58 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify that big-button-container pos 3 is visible
+2. Click on big-button-container pos 3
+3. Verify that the URL is correct","3999","Verify Homepage Big-button-container Pos 3","","Wed Jul 02 11:45:23 UTC 2025","passed","Wed Jul 02 11:45:27 UTC 2025","Page Homepage","Test Suites","",""
+"This test checks:
+1. Navigates to search page
+2. Performs search
+3. Verifies result
+4. Verifies pagination
+5. Goes back and verifies result again","9688","Verify Search on Biljett And Pagination On Searchpage","","Wed Jul 02 11:48:12 UTC 2025","passed","Wed Jul 02 11:48:22 UTC 2025","Page Search","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 2) is visible and clickable
+4. Verify skolbiljett menu item is visible and clickable
+5. Verify navigation to skolbiljett URL","3515","Verify Menu Biljetter Och Priser Vara Biljetter Skolbiljett","","Wed Jul 02 11:41:50 UTC 2025","passed","Wed Jul 02 11:41:53 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Check if JLT Mitt Konto is visible
+2. Send a GET request to JLT Mitt Konto.
+3. Verify that the received HTTP status code is 200.","5758","Verify Mitt Konto Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 11:36:33 UTC 2025","passed","Wed Jul 02 11:36:39 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify expandera under meny (index 4) is visible and clickable
+5. Verify låna ut menu item is visible and clickable
+6. Verify navigation to låna ut URL","3336","Verify Menu Biljetter Och Priser Kop Biljett Appen Lana Ut","","Wed Jul 02 11:42:04 UTC 2025","passed","Wed Jul 02 11:42:08 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify footer tjanster nyheter is visible and clickable","3448","Verify Footer Tjanster Nyheter","","Wed Jul 02 11:39:21 UTC 2025","passed","Wed Jul 02 11:39:25 UTC 2025","Page Footer","Test Suites","",""
+"Test steps:
+1. Navigate to Felanmalan Biljettautomat form
+2. Check iframe is visible
+3. Check if Friendly Captcha is visible","3783","Verify Felanmalan Biljettautomat Form and Captcha Is Visible","","Wed Jul 02 11:37:03 UTC 2025","passed","Wed Jul 02 11:37:07 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify header logga in is visible and clickable
+2. Verify mitt konto option becomes visible
+3. Verify företagsportalen option becomes visible","2934","Verify Header Logga In","","Wed Jul 02 11:40:11 UTC 2025","passed","Wed Jul 02 11:40:14 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify footer instagram is visible and clickable","4694","Verify Footer Instagram Icon","","Wed Jul 02 11:39:39 UTC 2025","passed","Wed Jul 02 11:39:44 UTC 2025","Page Footer","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 1) is visible and clickable
+4. Verify sjukresor menu item is visible and clickable
+5. Verify navigation to sjukresor URL","3413","Verify Menu Res Med Oss Serviceresor Sjukresor","","Wed Jul 02 11:40:24 UTC 2025","passed","Wed Jul 02 11:40:28 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 3) is visible and clickable
 3. Verify expandera under meny (index 4) is visible and clickable
 4. Verify om verksamheten menu item is visible and clickable
-5. Verify navigation to om verksamheten URL","2888","Verify Menu Om JLT Om Verksamheten","","Wed Jul 02 04:44:55 UTC 2025","passed","Wed Jul 02 04:44:58 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Navigate to Synpunkter Allmän form
-2. Check iframe is visible
-3. Send a GET request to the iframe src
-4. Verify that the received HTTP status code is 200.","3665","Verify Synpunkter Allman Form Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 04:39:08 UTC 2025","passed","Wed Jul 02 04:39:12 UTC 2025","Health Check External Resources","Test Suites","",""
-"Test steps:
-1. Verify that Nyheter Carousel With Heading is visible","2478","Verify Homepage Nyheter Carousel With Heading Is Visible","","Wed Jul 02 04:46:42 UTC 2025","passed","Wed Jul 02 04:46:45 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Wait for 2 seconds to let JavaScript run
-2. Get page errors
-3. Verify that there are no errors","4848","Verify JavaScript Runtime Errors","","Wed Jul 02 04:38:36 UTC 2025","passed","Wed Jul 02 04:38:41 UTC 2025","Health Check Console","Test Suites","",""
+5. Verify navigation to om verksamheten URL","3371","Verify Menu Om JLT Om Verksamheten","","Wed Jul 02 11:43:20 UTC 2025","passed","Wed Jul 02 11:43:24 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 3) is visible and clickable
 3. Verify expandera under meny (index 4) is visible and clickable
 4. Verify tillgänglighetsredogörelse menu item is visible and clickable
-5. Verify navigation to tillgänglighetsredogörelse URL","2692","Verify Menu Om JLT Tillganglighetsredogorelse","","Wed Jul 02 04:45:22 UTC 2025","passed","Wed Jul 02 04:45:25 UTC 2025","Page Header And Menu","Test Suites","",""
+5. Verify navigation to tillgänglighetsredogörelse URL","3390","Verify Menu Om JLT Tillganglighetsredogorelse","","Wed Jul 02 11:43:52 UTC 2025","passed","Wed Jul 02 11:43:55 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
-1. Navigate to Förseningsersättning form
-2. Check iframe is visible
-3. Send a GET request to the iframe src
-3. Verify that the received HTTP status code is 200.","3435","Verify Forseningsersattning Form Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 04:39:05 UTC 2025","passed","Wed Jul 02 04:39:08 UTC 2025","Health Check External Resources","Test Suites","",""
+1. Verify that Nyhet Pos 1 is visible
+2. Click on Nyhet Pos 1
+3. Verify that the URL is correct","3442","Verify Homepage Nyheter Click On Nyhet Pos 1","","Wed Jul 02 11:45:36 UTC 2025","passed","Wed Jul 02 11:45:39 UTC 2025","Page Homepage","Test Suites","",""
 "Test steps:
-1. Verify header biljetter och priser is visible and clickable
-2. Verify navigation to biljetter och priser URL","3037","Verify Header Biljetter Och Priser","","Wed Jul 02 04:41:56 UTC 2025","passed","Wed Jul 02 04:41:59 UTC 2025","Page Header And Menu","Test Suites","",""
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify tidtabeller menu item is visible and clickable
+5. Verify navigation to tidtabeller URL","3370","Verify Menu Res Med Oss Tillganglighet Ledsagning Tidtabeller","","Wed Jul 02 11:41:11 UTC 2025","passed","Wed Jul 02 11:41:14 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
+3. Verify lämna synpunkter menu item is visible and clickable
+4. Verify navigation to lämna synpunkter URL","3392","Verify Menu Kundservice Lamna Synpunkter","","Wed Jul 02 11:42:53 UTC 2025","passed","Wed Jul 02 11:42:56 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify header translate is visible and clickable
+2. Verify navigation to English contact page URL","3422","Verify Header Translate","","Wed Jul 02 11:40:08 UTC 2025","passed","Wed Jul 02 11:40:11 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Navigate to kartor och zoner
 2. Verify URL
 3. Expand kartor och zoner
 4. Click on kartor och zoner interaktiv karta
 5. Verify URL
-6. Verify HTTP status code is 200","6042","Verify Infab Kartor Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 04:39:58 UTC 2025","passed","Wed Jul 02 04:40:04 UTC 2025","Health Check External Resources","Test Suites","",""
+6. Verify HTTP status code is 200","6799","Verify Infab Kartor Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 11:37:46 UTC 2025","passed","Wed Jul 02 11:37:52 UTC 2025","Health Check External Resources","Test Suites","",""
 "Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 4) is visible and clickable
-3. Verify frågor och svar menu item is visible and clickable
-4. Verify navigation to frågor och svar URL","2732","Verify Menu Foretag Fragor Och Svar","","Wed Jul 02 04:46:04 UTC 2025","passed","Wed Jul 02 04:46:06 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify that big-button-container pos 3 is visible
-2. Click on big-button-container pos 3
-3. Verify that the URL is correct","3049","Verify Homepage Big-button-container Pos 3","","Wed Jul 02 04:46:39 UTC 2025","passed","Wed Jul 02 04:46:42 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify sök menu item is visible and clickable
-3. Verify navigation to sök URL","2785","Verify Menu Sok","","Wed Jul 02 04:46:09 UTC 2025","passed","Wed Jul 02 04:46:12 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify kundservice menu item is visible and clickable
-3. Verify navigation to kundservice URL","2715","Verify Menu Kundservice","","Wed Jul 02 04:44:15 UTC 2025","passed","Wed Jul 02 04:44:17 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify förseningsersättning menu item is visible and clickable
-4. Verify navigation to förseningsersättning URL","3208","Verify Menu Kundservice Forseningsersattning","","Wed Jul 02 04:44:43 UTC 2025","passed","Wed Jul 02 04:44:46 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify that Kundpanel Puff Form Link is visible
-2. Click on Kundpanel Puff Form Link
-3. Verify that the URL is correct","3031","Verify Homepage Kundpanel Puff Form Link","","Wed Jul 02 04:47:06 UTC 2025","passed","Wed Jul 02 04:47:09 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify appen menu item is visible and clickable
-5. Verify navigation to appen URL","2941","Verify Menu Biljetter Och Priser Kop Biljett Appen","","Wed Jul 02 04:43:42 UTC 2025","passed","Wed Jul 02 04:43:45 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify footer tjanster nyheter is visible and clickable","2876","Verify Footer Tjanster Nyheter","","Wed Jul 02 04:41:28 UTC 2025","passed","Wed Jul 02 04:41:31 UTC 2025","Page Footer","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 2) is visible and clickable
-4. Verify enkelbiljett menu item is visible and clickable
-5. Verify navigation to enkelbiljett URL","2911","Verify Menu Biljetter Och Priser Vara Biljetter Enkelbiljett","","Wed Jul 02 04:43:16 UTC 2025","passed","Wed Jul 02 04:43:19 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify lämna synpunkter menu item is visible and clickable
-4. Verify navigation to lämna synpunkter URL","2992","Verify Menu Kundservice Lamna Synpunkter","","Wed Jul 02 04:44:31 UTC 2025","passed","Wed Jul 02 04:44:34 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify that Kartor och zoner is visible
-2. Click on Kartor och zoner
-3. Verify that the URL is correct
-4. Verify that Terminalkartor Buss is visible","18454","Verify Kartor Och Zoner Terminalkartor Buss","","Wed Jul 02 04:47:34 UTC 2025","passed","Wed Jul 02 04:47:52 UTC 2025","Page Kartor Och Zoner","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 3) is visible and clickable
-3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify expandera under meny (index 5) is visible and clickable
-5. Verify registerutdrag menu item is visible and clickable
-6. Verify navigation to registerutdrag URL","2926","Verify Menu Om JLT Om Verksamheten Registerutdrag","","Wed Jul 02 04:44:58 UTC 2025","passed","Wed Jul 02 04:45:01 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify that Visa Alla Nyheter Link is visible
-2. Click on Visa Alla Nyheter Link
-3. Verify that the URL is correct","2561","Verify Homepage Nyheter Visa Alla Nyheter Link","","Wed Jul 02 04:46:56 UTC 2025","passed","Wed Jul 02 04:46:59 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Click on Google Translate
-2. Verify URL
-3. Select France
-4. Verify it is translated to France
-5. Select English
-6. Verify it is translated back to English","9032","Verify France Translation and Back to English","","Wed Jul 02 04:39:49 UTC 2025","passed","Wed Jul 02 04:39:58 UTC 2025","Health Check External Resources","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 2) is visible and clickable
-4. Verify resor danmark menu item is visible and clickable
-5. Verify navigation to resor danmark URL","2939","Verify Menu Res Med Oss Kartor Och Zoner Resor Danmark","","Wed Jul 02 04:42:55 UTC 2025","passed","Wed Jul 02 04:42:58 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 3) is visible and clickable
-3. Verify om JLT menu item is visible and clickable
-4. Verify navigation to om JLT URL","2823","Verify Menu Om JLT","","Wed Jul 02 04:44:52 UTC 2025","passed","Wed Jul 02 04:44:55 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify expandera under meny (index 4) is visible and clickable
-5. Verify ge bort din biljett menu item is visible and clickable
-6. Verify navigation to ge bort din biljett URL","3790","Verify Menu Biljetter Och Priser Kop Biljett Appen Ge Bort Din Biljett","","Wed Jul 02 04:43:45 UTC 2025","passed","Wed Jul 02 04:43:49 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 4) is visible and clickable
-3. Verify att vara företagskund menu item is visible and clickable
-4. Verify navigation to att vara företagskund URL","2898","Verify Menu Foretag Att Vara Foretagskund","","Wed Jul 02 04:45:37 UTC 2025","passed","Wed Jul 02 04:45:40 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify footer facebook is visible and clickable","3666","Verify Footer Facebook Icon","","Wed Jul 02 04:41:39 UTC 2025","passed","Wed Jul 02 04:41:43 UTC 2025","Page Footer","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 3) is visible and clickable
-3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify cookies menu item is visible and clickable
-5. Verify navigation to cookies URL","2827","Verify Menu Om JLT Cookies","","Wed Jul 02 04:45:19 UTC 2025","passed","Wed Jul 02 04:45:22 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 3) is visible and clickable
-3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify press media menu item is visible and clickable
-5. Verify navigation to press media URL","2917","Verify Menu Om JLT Press Media","","Wed Jul 02 04:45:14 UTC 2025","passed","Wed Jul 02 04:45:16 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify footer tjanster mitt konto is visible and clickable","3541","Verify Footer Tjanster Mitt Konto","","Wed Jul 02 04:41:25 UTC 2025","passed","Wed Jul 02 04:41:28 UTC 2025","Page Footer","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify kundpanel menu item is visible and clickable
-5. Verify navigation to kundpanel URL","2814","Verify Menu Kundservice Lamna Synpunkter Kundpanel","","Wed Jul 02 04:44:34 UTC 2025","passed","Wed Jul 02 04:44:37 UTC 2025","Page Header And Menu","Test Suites","",""
+1. Verify footer resa is visible and clickable
+2. Verify footer resa servicresor is visible and clickable
+3. Verify footer resa linjer is visible and clickable
+4. Verify footer resa kartor is visible and clickable
+5. Verify footer resa tillgänglighet och ledsagning is visible and clickable","4878","Verify Footer Resa","","Wed Jul 02 11:38:58 UTC 2025","passed","Wed Jul 02 11:39:03 UTC 2025","Page Footer","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 3) is visible and clickable
 3. Verify expandera under meny (index 4) is visible and clickable
 4. Verify expandera under meny (index 5) is visible and clickable
 5. Verify appen menu item is visible and clickable
-6. Verify navigation to appen URL","2815","Verify Menu Om JLT Tillganglighetsredogorelse Appen","","Wed Jul 02 04:45:31 UTC 2025","passed","Wed Jul 02 04:45:34 UTC 2025","Page Header And Menu","Test Suites","",""
+6. Verify navigation to appen URL","3498","Verify Menu Om JLT Tillganglighetsredogorelse Appen","","Wed Jul 02 11:44:03 UTC 2025","passed","Wed Jul 02 11:44:06 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
-1. Navigate to Felanmalan återförsäljare form
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 4) is visible and clickable
+3. Verify våra tjänster menu item is visible and clickable
+4. Verify navigation to våra tjänster URL","3430","Verify Menu Foretag Vara Tjanster","","Wed Jul 02 11:44:24 UTC 2025","passed","Wed Jul 02 11:44:27 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 4) is visible and clickable
+3. Verify att vara företagskund menu item is visible and clickable
+4. Verify navigation to att vara företagskund URL","3305","Verify Menu Foretag Att Vara Foretagskund","","Wed Jul 02 11:44:09 UTC 2025","passed","Wed Jul 02 11:44:13 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 4) is visible and clickable
+3. Verify expandera under meny (index 7) is visible and clickable
+4. Verify beställ resekort menu item is visible and clickable
+5. Verify navigation to beställ resekort URL","3484","Verify Menu Foretag Fragor Och Svar Bestall Resekort","","Wed Jul 02 11:44:45 UTC 2025","passed","Wed Jul 02 11:44:48 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 2) is visible and clickable
+4. Verify kommersiell trafik menu item is visible and clickable
+5. Verify navigation to kommersiell trafik URL","3423","Verify Menu Res Med Oss Kartor Och Zoner Kommersiell Trafik","","Wed Jul 02 11:41:00 UTC 2025","passed","Wed Jul 02 11:41:04 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 4) is visible and clickable
+3. Verify expandera under meny (index 5) is visible and clickable
+4. Verify resekort menu item is visible and clickable
+5. Verify navigation to resekort URL","3416","Verify Menu Foretag Att Vara Foretagskund Resekort","","Wed Jul 02 11:44:13 UTC 2025","passed","Wed Jul 02 11:44:16 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify sök menu item is visible and clickable
+3. Verify navigation to sök URL","3364","Verify Menu Sok","","Wed Jul 02 11:44:48 UTC 2025","passed","Wed Jul 02 11:44:52 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Navigate to Homepage through page logo
+2. Send a GET request to the JLT homepage.
+3. Verify that the received HTTP status code is 200.","4192","Verify Homepage HTTP Status Code Is STATUS_OK (200)","","Wed Jul 02 11:45:02 UTC 2025","passed","Wed Jul 02 11:45:07 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 1) is visible and clickable
+4. Verify expandera under meny (index 3) is visible and clickable
+5. Verify expandera under meny (index 4) is visible and clickable
+6. Verify ansök om återkommande resor menu item is visible and clickable
+7. Verify navigation to ansök om återkommande resor URL","3422","Verify Menu Res Med Oss Serviceresor Fardtjanst Ansok Om Aterkommande Resor","","Wed Jul 02 11:40:46 UTC 2025","passed","Wed Jul 02 11:40:50 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify appen menu item is visible and clickable
+5. Verify navigation to appen URL","3566","Verify Menu Biljetter Och Priser Kop Biljett Appen","","Wed Jul 02 11:41:57 UTC 2025","passed","Wed Jul 02 11:42:01 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify biljetter och priser menu item is visible and clickable
+3. Verify navigation to biljetter och priser URL","3141","Verify Menu Biljetter Och Priser","","Wed Jul 02 11:41:22 UTC 2025","passed","Wed Jul 02 11:41:25 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Navigate to Felanmalan Systemteknik, applikationer och trafikdata form
 2. Check iframe is visible
-3. Check if Friendly Captcha is visible","3188","Verify Felanmalan återförsäljare Form and Captcha Is Visible","","Wed Jul 02 04:39:29 UTC 2025","passed","Wed Jul 02 04:39:33 UTC 2025","Health Check External Resources","Test Suites","",""
+3. Check if Friendly Captcha is visible","3884","Verify Felanmalan Systemteknik, applikationer och trafikdata Form and Captcha Is Visible","","Wed Jul 02 11:37:18 UTC 2025","passed","Wed Jul 02 11:37:22 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
+3. Verify expandera under meny (index 4) is visible and clickable
+4. Verify serviceresor menu item is visible and clickable
+5. Verify navigation to serviceresor URL","3800","Verify Menu Kundservice Lamna Synpunkter Serviceresor","","Wed Jul 02 11:43:00 UTC 2025","passed","Wed Jul 02 11:43:04 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify företagsportalen menu item is visible and clickable
+3. Verify navigation to företagsportalen URL","3798","Verify Menu Foretagsportalen","","Wed Jul 02 11:44:59 UTC 2025","passed","Wed Jul 02 11:45:02 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
+3. Verify expandera under meny (index 5) is visible and clickable
+4. Verify alternativa färdmedel menu item is visible and clickable
+5. Verify navigation to alternativa färdmedel URL","3389","Verify Menu Kundservice Forseningsersattning Alternativa Fardmedel","","Wed Jul 02 11:43:14 UTC 2025","passed","Wed Jul 02 11:43:17 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify kartor och zoner menu item is visible and clickable
+4. Verify navigation to kartor och zoner URL","3468","Verify Menu Res Med Oss Kartor Och Zoner","","Wed Jul 02 11:40:57 UTC 2025","passed","Wed Jul 02 11:41:00 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify stäng meny button is visible and clickable
+3. Verify menu closes after clicking stäng meny","3123","Verify Menu Oppna Och Stang Meny Button","","Wed Jul 02 11:40:14 UTC 2025","passed","Wed Jul 02 11:40:17 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Navigate to Synpunkter Allmän form
+2. Check iframe is visible
+3. Send a GET request to the iframe src
+4. Verify that the received HTTP status code is 200.","4140","Verify Synpunkter Allman Form Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 11:36:50 UTC 2025","passed","Wed Jul 02 11:36:54 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 4) is visible and clickable
+3. Verify frågor och svar menu item is visible and clickable
+4. Verify navigation to frågor och svar URL","3214","Verify Menu Foretag Fragor Och Svar","","Wed Jul 02 11:44:42 UTC 2025","passed","Wed Jul 02 11:44:45 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify footer tjanster mitt konto is visible and clickable","3357","Verify Footer Tjanster Mitt Konto","","Wed Jul 02 11:39:18 UTC 2025","passed","Wed Jul 02 11:39:21 UTC 2025","Page Footer","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
+3. Verify förseningsersättning menu item is visible and clickable
+4. Verify navigation to förseningsersättning URL","3293","Verify Menu Kundservice Forseningsersattning","","Wed Jul 02 11:43:07 UTC 2025","passed","Wed Jul 02 11:43:10 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Navigate to Synpunkter Serviceresor form
+2. Check iframe is visible
+3. Send a GET request to the iframe src
+4. Verify that the received HTTP status code is 200.","5156","Verify Synpunkter Serviceresor Form Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 11:36:54 UTC 2025","passed","Wed Jul 02 11:36:59 UTC 2025","Health Check External Resources","Test Suites","",""
 "Test steps:
 1. Verify that Reseplanerare is visible
 2. Send a GET request to JLT homepage Reseplanerare.
-3. Verify that the received HTTP status code is 200.","3025","Verify Homepage Reseplanerare Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 04:46:28 UTC 2025","passed","Wed Jul 02 04:46:31 UTC 2025","Page Homepage","Test Suites","",""
+3. Verify that the received HTTP status code is 200.","3344","Verify Homepage Reseplanerare Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 11:45:10 UTC 2025","passed","Wed Jul 02 11:45:13 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
+3. Verify expandera under meny (index 5) is visible and clickable
+4. Verify formulär menu item is visible and clickable
+5. Verify navigation to formulär URL","3354","Verify Menu Kundservice Forseningsersattning Formular","","Wed Jul 02 11:43:10 UTC 2025","passed","Wed Jul 02 11:43:14 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify header företag is visible and clickable
+2. Verify navigation to företag URL","3238","Verify Header Foretag","","Wed Jul 02 11:40:02 UTC 2025","passed","Wed Jul 02 11:40:05 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify that Kartor och zoner is visible
+2. Click on Kartor och zoner
+3. Verify that the URL is correct
+4. Verify that Terminalkartor Tåg is visible","73467","Verify Kartor Och Zoner Terminalkartor Tåg","","Wed Jul 02 11:46:48 UTC 2025","passed","Wed Jul 02 11:48:01 UTC 2025","Page Kartor Och Zoner","Test Suites","",""
+"Test steps:
+1. Navigate to Synpunkter Kundpanel form
+2. Check iframe is visible
+3. Check if Friendly Captcha is visible","3790","Verify Synpunkter Kundpanel Form and Captcha Is Visible","","Wed Jul 02 11:36:59 UTC 2025","passed","Wed Jul 02 11:37:03 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 3) is visible and clickable
+3. Verify om JLT menu item is visible and clickable
+4. Verify navigation to om JLT URL","3287","Verify Menu Om JLT","","Wed Jul 02 11:43:17 UTC 2025","passed","Wed Jul 02 11:43:20 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify förlustgaranti menu item is visible and clickable
+5. Verify navigation to förlustgaranti URL","3302","Verify Menu Kundservice Kontakta Oss Forlustgaranti","","Wed Jul 02 11:42:43 UTC 2025","passed","Wed Jul 02 11:42:46 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Navigate to Homepage through page logo
+2. Get the title of the homepage
+3. Verify that the title is ""Start - Jönköpings Länstrafik"".","3279","Verify Homepage Title Is Visible","","Wed Jul 02 11:45:07 UTC 2025","passed","Wed Jul 02 11:45:10 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 1) is visible and clickable
+4. Verify närtrafik menu item is visible and clickable
+5. Verify navigation to närtrafik URL","3307","Verify Menu Res Med Oss Serviceresor Nartrafik","","Wed Jul 02 11:40:31 UTC 2025","passed","Wed Jul 02 11:40:35 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify serviceresor menu item is visible and clickable
+4. Verify navigation to serviceresor URL","3494","Verify Menu Res Med Oss Serviceresor","","Wed Jul 02 11:40:21 UTC 2025","passed","Wed Jul 02 11:40:24 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify that Kartor och zoner is visible
+2. Click on Kartor och zoner
+3. Verify that the URL is correct
+4. Verify that Linjekartor Per Region is visible","18162","Verifiera Kartor Och Zoner Linjekartor Per Region","","Wed Jul 02 11:46:10 UTC 2025","passed","Wed Jul 02 11:46:28 UTC 2025","Page Kartor Och Zoner","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 4) is visible and clickable
+3. Verify expandera under meny (index 5) is visible and clickable
+4. Verify fakturering menu item is visible and clickable
+5. Verify navigation to fakturering URL","4225","Verify Menu Foretag Att Vara Foretagskund Fakturering","","Wed Jul 02 11:44:16 UTC 2025","passed","Wed Jul 02 11:44:20 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Renew consent
+2. Switch marketing cookies
+3. Reject cookies
+4. Renew consent
+5. Accept cookies","3350","Verify Cookie Banner","","Wed Jul 02 11:37:22 UTC 2025","passed","Wed Jul 02 11:37:26 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Click on Google Translate
+2. Verify URL
+3. Verify Google Translate block is visible","4176","Verify Google Translate Element Is Visible","","Wed Jul 02 11:37:26 UTC 2025","passed","Wed Jul 02 11:37:30 UTC 2025","Health Check External Resources","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 1) is visible and clickable
 3. Verify expandera under meny (index 2) is visible and clickable
-4. Verify expandera under meny (index 4) is visible and clickable
-5. Verify seniorrabatt menu item is visible and clickable
-6. Verify navigation to seniorrabatt URL","3588","Verify Menu Biljetter Och Priser Vara Biljetter Periodbiljett Seniorrabatt","","Wed Jul 02 04:43:32 UTC 2025","passed","Wed Jul 02 04:43:36 UTC 2025","Page Header And Menu","Test Suites","",""
+4. Verify expandera under meny (index 3) is visible and clickable
+5. Verify kundkassa menu item is visible and clickable
+6. Verify navigation to kundkassa URL","3497","Verify Menu Biljetter Och Priser Vara Biljetter Enkelbiljett Kundkassa","","Wed Jul 02 11:41:32 UTC 2025","passed","Wed Jul 02 11:41:36 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Check if Reseplanerare is visible
+2. Send a GET request to JLT homepage Reseplanerare iframe.
+3. Verify that the received HTTP status code is 200.","3547","Verify Reseplanerare Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 11:36:30 UTC 2025","passed","Wed Jul 02 11:36:33 UTC 2025","Health Check External Resources","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 3) is visible and clickable
-3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify expandera under meny (index 5) is visible and clickable
-5. Verify sociala medier menu item is visible and clickable
-6. Verify navigation to sociala medier URL","3042","Verify Menu Om JLT Om Verksamheten Sociala Medier","","Wed Jul 02 04:45:01 UTC 2025","passed","Wed Jul 02 04:45:04 UTC 2025","Page Header And Menu","Test Suites","",""
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 2) is visible and clickable
+4. Verify periodbiljett menu item is visible and clickable
+5. Verify navigation to periodbiljett URL","3496","Verify Menu Biljetter Och Priser Vara Biljetter Periodbiljett","","Wed Jul 02 11:41:43 UTC 2025","passed","Wed Jul 02 11:41:46 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify footer app store is visible and clickable","4791","Verify Footer App Store Link","","Wed Jul 02 11:39:25 UTC 2025","passed","Wed Jul 02 11:39:29 UTC 2025","Page Footer","Test Suites","",""
+"Test steps:
+1. Navigate to Förseningsersättning form
+2. Check iframe is visible
+3. Send a GET request to the iframe src
+3. Verify that the received HTTP status code is 200.","4410","Verify Forseningsersattning Form Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 11:36:45 UTC 2025","passed","Wed Jul 02 11:36:50 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify that big-button-container pos 2 is visible
+2. Click on big-button-container pos 2
+3. Verify that the URL is correct","3402","Verify Homepage Big-button-container Pos 2","","Wed Jul 02 11:45:20 UTC 2025","passed","Wed Jul 02 11:45:23 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify trafikförändringar menu item is visible and clickable
+3. Verify navigation to trafikförändringar URL","3143","Verify Menu Trafikforandringar","","Wed Jul 02 11:44:52 UTC 2025","passed","Wed Jul 02 11:44:55 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify barnvagn menu item is visible and clickable
+5. Verify navigation to barnvagn URL","3436","Verify Menu Res Med Oss Tillganglighet Ledsagning Barnvagn","","Wed Jul 02 11:41:14 UTC 2025","passed","Wed Jul 02 11:41:18 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify that Kartor och zoner is visible
 2. Verify URL
@@ -303,21 +397,336 @@
 4. Verify that Linjekartor Per Region is visible
 5. Verify that Terminalkartor Buss is visible
 6. Verify that Terminalkartor Tåg is visible
-7. Verify that Zonkarta is visible","2971","Verify Kartor Och Zoner General","","Wed Jul 02 04:47:09 UTC 2025","passed","Wed Jul 02 04:47:12 UTC 2025","Page Kartor Och Zoner","Test Suites","",""
+7. Verify that Zonkarta is visible","3447","Verify Kartor Och Zoner General","","Wed Jul 02 11:46:00 UTC 2025","passed","Wed Jul 02 11:46:03 UTC 2025","Page Kartor Och Zoner","Test Suites","",""
 "Test steps:
-1. Navigate to Felanmalan Systemteknik, applikationer och trafikdata form
+1. Verify that Kartor och zoner is visible
+2. Click on Kartor och zoner
+3. Verify that the URL is correct
+4. Verify that Terminalkartor Buss is visible","19768","Verify Kartor Och Zoner Terminalkartor Buss","","Wed Jul 02 11:46:28 UTC 2025","passed","Wed Jul 02 11:46:48 UTC 2025","Page Kartor Och Zoner","Test Suites","",""
+"Test steps:
+1. Verify that Kundpanel Puff is visible","2681","Verify Homepage Kundpanel Puff Is Visible","","Wed Jul 02 11:45:54 UTC 2025","passed","Wed Jul 02 11:45:56 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify ombord på buss och tåg menu item is visible and clickable
+5. Verify navigation to ombord på buss och tåg URL","3352","Verify Menu Biljetter Och Priser Kop Biljett Ombord Pa Buss Och Tag","","Wed Jul 02 11:42:26 UTC 2025","passed","Wed Jul 02 11:42:29 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 1) is visible and clickable
+4. Verify expandera under meny (index 3) is visible and clickable
+5. Verify öasvängen menu item is visible and clickable
+6. Verify navigation to öasvängen URL","3491","Verify Menu Res Med Oss Serviceresor Nartrafik Oasvangen","","Wed Jul 02 11:40:35 UTC 2025","passed","Wed Jul 02 11:40:38 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify that Kartor och zoner is visible
+2. Click on Interaktiv Karta
+3. Verify that the URL is correct
+4. Verify that Interaktiv Karta is visible","6742","Verify Kartor Och Zoner Interaktiv Karta","","Wed Jul 02 11:46:03 UTC 2025","passed","Wed Jul 02 11:46:10 UTC 2025","Page Kartor Och Zoner","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 3) is visible and clickable
+3. Verify expandera under meny (index 4) is visible and clickable
+4. Verify expandera under meny (index 5) is visible and clickable
+5. Verify jlt.se menu item is visible and clickable
+6. Verify navigation to jlt.se URL","3828","Verify Menu Om JLT Tillganglighetsredogorelse JLTse","","Wed Jul 02 11:43:55 UTC 2025","passed","Wed Jul 02 11:43:59 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Navigate to Res med oss
+2. Verify URL
+3. Verify all questions are collapsed","3706","Verify FAQ-module Default Collapsed Questions","","Wed Jul 02 11:38:47 UTC 2025","passed","Wed Jul 02 11:38:51 UTC 2025","Page Faq Module","Test Suites","",""
+"Test steps:
+1. Navigate to Felanmalan Buss form
 2. Check iframe is visible
-3. Check if Friendly Captcha is visible","3381","Verify Felanmalan Systemteknik, applikationer och trafikdata Form and Captcha Is Visible","","Wed Jul 02 04:39:33 UTC 2025","passed","Wed Jul 02 04:39:36 UTC 2025","Health Check External Resources","Test Suites","",""
+3. Check if Friendly Captcha is visible","3682","Verify Felanmalan Buss Form and Captcha Is Visible","","Wed Jul 02 11:37:11 UTC 2025","passed","Wed Jul 02 11:37:14 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify återförsäljare menu item is visible and clickable
+5. Verify navigation to återförsäljare URL","3524","Verify Menu Biljetter Och Priser Kop Biljett Aterforsaljare","","Wed Jul 02 11:42:22 UTC 2025","passed","Wed Jul 02 11:42:26 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify vara biljetter menu item is visible and clickable
+4. Verify navigation to vara biljetter URL","3554","Verify Menu Biljetter Och Priser Vara Biljetter","","Wed Jul 02 11:41:25 UTC 2025","passed","Wed Jul 02 11:41:28 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 3) is visible and clickable
+3. Verify expandera under meny (index 4) is visible and clickable
+4. Verify expandera under meny (index 5) is visible and clickable
+5. Verify registerutdrag menu item is visible and clickable
+6. Verify navigation to registerutdrag URL","3544","Verify Menu Om JLT Om Verksamheten Registerutdrag","","Wed Jul 02 11:43:24 UTC 2025","passed","Wed Jul 02 11:43:27 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify that Nyheter Gridboxes are visible","2822","Verify Homepage Nyheter Gridboxes Are Visible","","Wed Jul 02 11:45:30 UTC 2025","passed","Wed Jul 02 11:45:33 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify that Visa Alla Nyheter Link is visible
+2. Click on Visa Alla Nyheter Link
+3. Verify that the URL is correct","3442","Verify Homepage Nyheter Visa Alla Nyheter Link","","Wed Jul 02 11:45:44 UTC 2025","passed","Wed Jul 02 11:45:47 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 2) is visible and clickable
+4. Verify resor danmark menu item is visible and clickable
+5. Verify navigation to resor danmark URL","3617","Verify Menu Res Med Oss Kartor Och Zoner Resor Danmark","","Wed Jul 02 11:41:04 UTC 2025","passed","Wed Jul 02 11:41:07 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify header res med oss is visible and clickable
+2. Verify navigation to res med oss URL","3532","Verify Header Res Med Oss","","Wed Jul 02 11:39:52 UTC 2025","passed","Wed Jul 02 11:39:55 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 2) is visible and clickable
+4. Verify enkelbiljett menu item is visible and clickable
+5. Verify navigation to enkelbiljett URL","3568","Verify Menu Biljetter Och Priser Vara Biljetter Enkelbiljett","","Wed Jul 02 11:41:28 UTC 2025","passed","Wed Jul 02 11:41:32 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify företag menu item is visible and clickable
+3. Verify navigation to företag URL","3194","Verify Menu Foretag","","Wed Jul 02 11:44:06 UTC 2025","passed","Wed Jul 02 11:44:09 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify that big-button-container pos 1 is visible
+2. Click on big-button-container pos 1
+3. Verify that the URL is correct","3285","Verify Homepage Big-button-container Pos 1","","Wed Jul 02 11:45:16 UTC 2025","passed","Wed Jul 02 11:45:20 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify expandera under meny (index 4) is visible and clickable
+5. Verify ge bort din biljett menu item is visible and clickable
+6. Verify navigation to ge bort din biljett URL","3649","Verify Menu Biljetter Och Priser Kop Biljett Appen Ge Bort Din Biljett","","Wed Jul 02 11:42:01 UTC 2025","passed","Wed Jul 02 11:42:04 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Click on Google Translate
+2. Verify URL
+3. Select France
+4. Verify it is translated to France
+5. Select English
+6. Verify it is translated back to English","9391","Verify France Translation and Back to English","","Wed Jul 02 11:37:36 UTC 2025","passed","Wed Jul 02 11:37:46 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 3) is visible and clickable
+3. Verify expandera under meny (index 4) is visible and clickable
+4. Verify expandera under meny (index 5) is visible and clickable
+5. Verify framtiden menu item is visible and clickable
+6. Verify navigation to framtiden URL","3634","Verify Menu Om JLT Om Verksamheten Framtiden","","Wed Jul 02 11:43:31 UTC 2025","passed","Wed Jul 02 11:43:34 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Navigate to Res med oss
+2. Verify URL
+3. Verify FAQ-module is visible","3491","Verify FAQ-module General","","Wed Jul 02 11:38:44 UTC 2025","passed","Wed Jul 02 11:38:47 UTC 2025","Page Faq Module","Test Suites","",""
+"Test steps:
+1. Reload the page
+2. Wait for 2 seconds to let JavaScript run
+3. Get console errors
+4. Verify that there are no errors","5320","Verify Console Errors","","Wed Jul 02 11:36:19 UTC 2025","passed","Wed Jul 02 11:36:24 UTC 2025","Health Check Console","Test Suites","",""
+"Test steps:
+1. Verify that Biljettvaljaren Puff Link is visible
+2. Click on Biljettvaljaren Puff Link
+3. Verify that the URL is correct","3135","Verify Homepage Biljettvaljaren Puff Link","","Wed Jul 02 11:45:50 UTC 2025","passed","Wed Jul 02 11:45:54 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 3) is visible and clickable
+3. Verify expandera under meny (index 4) is visible and clickable
+4. Verify expandera under meny (index 5) is visible and clickable
+5. Verify sociala medier menu item is visible and clickable
+6. Verify navigation to sociala medier URL","3431","Verify Menu Om JLT Om Verksamheten Sociala Medier","","Wed Jul 02 11:43:27 UTC 2025","passed","Wed Jul 02 11:43:31 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 3) is visible and clickable
+3. Verify expandera under meny (index 4) is visible and clickable
+4. Verify expandera under meny (index 5) is visible and clickable
+5. Verify hållbarhet menu item is visible and clickable
+6. Verify navigation to hållbarhet URL","3474","Verify Menu Om JLT Om Verksamheten Hallbarhet","","Wed Jul 02 11:43:35 UTC 2025","passed","Wed Jul 02 11:43:38 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify länstrafiken logo is visible and clickable
+2. Verify navigation to homepage URL","3290","Verify Header Lanstrafiken Logo","","Wed Jul 02 11:39:48 UTC 2025","passed","Wed Jul 02 11:39:52 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify that Kundpanel Puff Form Link is visible
+2. Click on Kundpanel Puff Form Link
+3. Verify that the URL is correct","3326","Verify Homepage Kundpanel Puff Form Link","","Wed Jul 02 11:45:56 UTC 2025","passed","Wed Jul 02 11:46:00 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Navigate to Felanmalan återförsäljare form
+2. Check iframe is visible
+3. Check if Friendly Captcha is visible","3811","Verify Felanmalan återförsäljare Form and Captcha Is Visible","","Wed Jul 02 11:37:15 UTC 2025","passed","Wed Jul 02 11:37:18 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify footer google play is visible and clickable","3141","Verify Footer Google Play Link","","Wed Jul 02 11:39:29 UTC 2025","passed","Wed Jul 02 11:39:33 UTC 2025","Page Footer","Test Suites","",""
+"Test steps:
+1. Scroll right and verify that Nyhet Pos 4 is visible
+2. Click on Nyhet Pos 4
+3. Verify that the URL is correct","4900","Verify Homepage Nyheter Scroll Right And Click On Nyhet Pos 4","","Wed Jul 02 11:45:39 UTC 2025","passed","Wed Jul 02 11:45:44 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify footer om oss is visible and clickable
+2. Verify footer om oss om verksamheten is visible and clickable
+3. Verify footer om oss var trafik is visible and clickable
+4. Verify footer om oss press och media is visible and clickable
+5. Verify footer om oss lediga tjanster is visible and clickable
+6. Verify footer om oss cookies is visible and clickable
+7. Verify footer om oss tillgangsredogorelse is visible and clickable","5457","Verify Footer Om Oss","","Wed Jul 02 11:39:12 UTC 2025","passed","Wed Jul 02 11:39:18 UTC 2025","Page Footer","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 1) is visible and clickable
+4. Verify expandera under meny (index 2) is visible and clickable
+5. Verify hälsoåskal menu item is visible and clickable
+6. Verify navigation to hälsoåskal URL","3437","Verify Menu Res Med Oss Serviceresor Sjukresor Halsoskal","","Wed Jul 02 11:40:28 UTC 2025","passed","Wed Jul 02 11:40:31 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 4) is visible and clickable
+3. Verify expandera under meny (index 6) is visible and clickable
+4. Verify personalerbjudande menu item is visible and clickable
+5. Verify navigation to personalerbjudande URL","3790","Verify Menu Foretag Vara Tjanster Personalerbjudande","","Wed Jul 02 11:44:34 UTC 2025","passed","Wed Jul 02 11:44:38 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify åldersgränser och rabatter menu item is visible and clickable
+4. Verify navigation to åldersgränser och rabatter URL","3310","Verify Menu Biljetter Och Priser Aldersgranser Och Rabatter","","Wed Jul 02 11:42:29 UTC 2025","passed","Wed Jul 02 11:42:32 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify köp biljett menu item is visible and clickable
+4. Verify navigation to köp biljett URL","3570","Verify Menu Biljetter Och Priser Kop Biljett","","Wed Jul 02 11:41:53 UTC 2025","passed","Wed Jul 02 11:41:57 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify res med oss menu item is visible and clickable
+3. Verify navigation to res med oss URL","3287","Verify Menu Res Med Oss","","Wed Jul 02 11:40:18 UTC 2025","passed","Wed Jul 02 11:40:21 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 1) is visible and clickable
+4. Verify expandera under meny (index 3) is visible and clickable
+5. Verify färdtjänst menu item is visible and clickable
+6. Verify navigation to färdtjänst URL","3897","Verify Menu Res Med Oss Serviceresor Fardtjanst","","Wed Jul 02 11:40:42 UTC 2025","passed","Wed Jul 02 11:40:46 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 1) is visible and clickable
+4. Verify expandera under meny (index 3) is visible and clickable
+5. Verify huskvarnasnurren menu item is visible and clickable
+6. Verify navigation to huskvarnasnurren URL","4250","Verify Menu Res Med Oss Serviceresor Nartrafik Huskvarnasnurren","","Wed Jul 02 11:40:38 UTC 2025","passed","Wed Jul 02 11:40:42 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 2) is visible and clickable
 3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify återköp menu item is visible and clickable
-5. Verify navigation to återköp URL","2920","Verify Menu Kundservice Kontakta Oss Aterkop","","Wed Jul 02 04:44:20 UTC 2025","passed","Wed Jul 02 04:44:23 UTC 2025","Page Header And Menu","Test Suites","",""
+4. Verify engelska menu item is visible and clickable
+5. Verify navigation to engelska URL","3386","Verify Menu Kundservice Kontakta Oss Engelska","","Wed Jul 02 11:42:50 UTC 2025","passed","Wed Jul 02 11:42:53 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
-1. Navigate to Homepage through page logo
-2. Send a GET request to the JLT homepage.
-3. Verify that the received HTTP status code is 200.","3375","Verify Homepage HTTP Status Code Is STATUS_OK (200)","","Wed Jul 02 04:46:22 UTC 2025","passed","Wed Jul 02 04:46:26 UTC 2025","Page Homepage","Test Suites","",""
+1. Verify that Nyheter Carousel Footer is visible","2841","Verify Homepage Nyheter Carousel Footer Is Visible","","Wed Jul 02 11:45:33 UTC 2025","passed","Wed Jul 02 11:45:36 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify aktivera blippa menu item is visible and clickable
+5. Verify navigation to aktivera blippa URL","4109","Verify Menu Biljetter Och Priser Kop Biljett Aktivera Blippa","","Wed Jul 02 11:42:11 UTC 2025","passed","Wed Jul 02 11:42:15 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
+3. Verify expandera under meny (index 4) is visible and clickable
+4. Verify allmän menu item is visible and clickable
+5. Verify navigation to allmän URL","3256","Verify Menu Kundservice Lamna Synpunkter Allman","","Wed Jul 02 11:43:04 UTC 2025","passed","Wed Jul 02 11:43:07 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify that Biljettvaljaren Puff is visible","2844","Verify Homepage Biljettvaljaren Puff Is Visible","","Wed Jul 02 11:45:48 UTC 2025","passed","Wed Jul 02 11:45:50 UTC 2025","Page Homepage","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 2) is visible and clickable
+4. Verify flexbiljett menu item is visible and clickable
+5. Verify navigation to flexbiljett URL","3394","Verify Menu Biljetter Och Priser Vara Biljetter Flexbiljett","","Wed Jul 02 11:41:39 UTC 2025","passed","Wed Jul 02 11:41:43 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 1) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify mitt konto menu item is visible and clickable
+5. Verify navigation to mitt konto URL","3414","Verify Menu Biljetter Och Priser Kop Biljett Mitt Konto","","Wed Jul 02 11:42:15 UTC 2025","passed","Wed Jul 02 11:42:19 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
+3. Verify kontakta oss menu item is visible and clickable
+4. Verify navigation to kontakta oss URL","3646","Verify Menu Kundservice Kontakta Oss","","Wed Jul 02 11:42:36 UTC 2025","passed","Wed Jul 02 11:42:39 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify kundservice menu item is visible and clickable
+3. Verify navigation to kundservice URL","3356","Verify Menu Kundservice","","Wed Jul 02 11:42:32 UTC 2025","passed","Wed Jul 02 11:42:36 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Wait for 2 seconds to let JavaScript run
+2. Get page errors
+3. Verify that there are no errors","5193","Verify JavaScript Runtime Errors","","Wed Jul 02 11:36:14 UTC 2025","passed","Wed Jul 02 11:36:19 UTC 2025","Health Check Console","Test Suites","",""
+"This test checks:
+1. Performs search
+2. Clicks on search result index 0
+3. Verifies correct page","5668","Verify Search on Periodbiljetter","","Wed Jul 02 11:48:01 UTC 2025","passed","Wed Jul 02 11:48:07 UTC 2025","Page Search","Test Suites","",""
+"Test steps:
+1. Click on Google Translate
+2. Verify URL
+3. Select Arabic
+4. Verify it is translated to Arabic","6341","Verify Arabic Translation","","Wed Jul 02 11:37:30 UTC 2025","passed","Wed Jul 02 11:37:36 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Navigate to Res med oss
+2. Verify URL
+3. Verify first question is visible
+4. Click on first question
+5. Verify first question is expanded
+6. Click on first question
+7. Verify first question is collapsed","3614","Verify FAQ-module Expanding And Collapsing Of Questions","","Wed Jul 02 11:38:51 UTC 2025","passed","Wed Jul 02 11:38:55 UTC 2025","Page Faq Module","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 3) is visible and clickable
+3. Verify expandera under meny (index 4) is visible and clickable
+4. Verify cookies menu item is visible and clickable
+5. Verify navigation to cookies URL","3383","Verify Menu Om JLT Cookies","","Wed Jul 02 11:43:48 UTC 2025","passed","Wed Jul 02 11:43:52 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify stationer menu item is visible and clickable
+5. Verify navigation to stationer URL","3738","Verify Menu Res Med Oss Tillganglighet Ledsagning Stationer","","Wed Jul 02 11:41:18 UTC 2025","passed","Wed Jul 02 11:41:22 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Navigate to Felanmalan Handenhet form
+2. Check iframe is visible
+3. Check if Friendly Captcha is visible","3890","Verify Felanmalan Handenhet Form and Captcha Is Visible","","Wed Jul 02 11:37:07 UTC 2025","passed","Wed Jul 02 11:37:11 UTC 2025","Health Check External Resources","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 4) is visible and clickable
+3. Verify expandera under meny (index 5) is visible and clickable
+4. Verify priser menu item is visible and clickable
+5. Verify navigation to priser URL","3474","Verify Menu Foretag Att Vara Foretagskund Priser","","Wed Jul 02 11:44:20 UTC 2025","passed","Wed Jul 02 11:44:24 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify footer kundservice is visible and clickable
+2. Verify footer kundservice kontakta oss is visible and clickable
+3. Verify footer kundservice lamna synpunkter is visible and clickable
+4. Verify footer kundservice forseningersattning is visible and clickable","4347","Verify Footer Kundservice","","Wed Jul 02 11:39:08 UTC 2025","passed","Wed Jul 02 11:39:12 UTC 2025","Page Footer","Test Suites","",""
+"Test steps:
+1. Verify header sök is visible and clickable
+2. Verify searchbar becomes visible after click","3084","Verify Header Sök","","Wed Jul 02 11:40:05 UTC 2025","passed","Wed Jul 02 11:40:08 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 3) is visible and clickable
+3. Verify expandera under meny (index 4) is visible and clickable
+4. Verify expandera under meny (index 5) is visible and clickable
+5. Verify mitt konto menu item is visible and clickable
+6. Verify navigation to mitt konto URL","3570","Verify Menu Om JLT Tillganglighetsredogorelse Mitt Konto","","Wed Jul 02 11:43:59 UTC 2025","passed","Wed Jul 02 11:44:03 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify that Nyheter Carousel With Heading is visible","2879","Verify Homepage Nyheter Carousel With Heading Is Visible","","Wed Jul 02 11:45:27 UTC 2025","passed","Wed Jul 02 11:45:30 UTC 2025","Page Homepage","Test Suites","",""
+"This test checks:
+1. Performs search
+2. Clicks on search result index 0
+3. Verifies correct page","5181","Verify Search on Ge bort biljett","","Wed Jul 02 11:48:07 UTC 2025","passed","Wed Jul 02 11:48:12 UTC 2025","Page Search","Test Suites","",""
+"Test steps:
+1. Verify footer facebook is visible and clickable","6577","Verify Footer Facebook Icon","","Wed Jul 02 11:39:33 UTC 2025","passed","Wed Jul 02 11:39:39 UTC 2025","Page Footer","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 2) is visible and clickable
+3. Verify expandera under meny (index 3) is visible and clickable
+4. Verify hittat eller glömt menu item is visible and clickable
+5. Verify navigation to hittat eller glömt URL","3393","Verify Menu Kundservice Kontakta Oss Hittat Eller Glomt","","Wed Jul 02 11:42:46 UTC 2025","passed","Wed Jul 02 11:42:50 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Verify menu button is visible and clickable
+2. Verify expandera under meny (index 0) is visible and clickable
+3. Verify linjer hallplatser och tidtabeller menu item is visible and clickable
+4. Verify navigation to linjer hallplatser och tidtabeller URL","3387","Verify Menu Res Med Oss Linjer Hallplatser Och Tidtabeller","","Wed Jul 02 11:40:53 UTC 2025","passed","Wed Jul 02 11:40:57 UTC 2025","Page Header And Menu","Test Suites","",""
+"Test steps:
+1. Resenärskategori: Vuxen
+2. Resväg: Jönköping Juneporten - Huskvarna Esplanaden
+3. Resvanor: 2/dag, 5/vecka, 4/månad, 12/år
+4. Beräkna pris
+5. Verifiera att det kommer 2 förslag
+6. Verifiera att det kommer rätt förslag
+7. Verifiera knappen ""Läs mer om biljettyp""","25489","Verify Biljettvaljaren E2E Case 1","","Wed Jul 02 11:37:53 UTC 2025","passed","Wed Jul 02 11:38:18 UTC 2025","Page Biljettvaljaren","Test Suites","",""
 "Test steps:
 1. Resenärskategori: Ungdom
 2. Resväg: Gränna - Rådhusparken
@@ -326,451 +735,42 @@
 5. Verifiera att det kommer 2 förslag
 6. Verifiera att det kommer rätt förslag
 7. Verifiera knappen ""Läs mer om biljettyp""
-8. Verifiera att det är rätt pris","25282","Verify Biljettvaljaren E2E Case 2","","Wed Jul 02 04:40:29 UTC 2025","passed","Wed Jul 02 04:40:55 UTC 2025","Page Biljettvaljaren","Test Suites","",""
+8. Verifiera att det är rätt pris","25534","Verify Biljettvaljaren E2E Case 2","","Wed Jul 02 11:38:18 UTC 2025","passed","Wed Jul 02 11:38:44 UTC 2025","Page Biljettvaljaren","Test Suites","",""
 "Test steps:
-1. Navigate to Res med oss
-2. Verify URL
-3. Verify all questions are collapsed","2908","Verify FAQ-module Default Collapsed Questions","","Wed Jul 02 04:40:58 UTC 2025","passed","Wed Jul 02 04:41:01 UTC 2025","Page Faq Module","Test Suites","",""
-"Test steps:
-1. Verify that Nyheter Gridboxes are visible","2346","Verify Homepage Nyheter Gridboxes Are Visible","","Wed Jul 02 04:46:45 UTC 2025","passed","Wed Jul 02 04:46:47 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Verify that Kartor och zoner is visible
-2. Click on Kartor och zoner
-3. Verify that the URL is correct
-4. Verify that Terminalkartor Tåg is visible","66385","Verify Kartor Och Zoner Terminalkartor Tåg","","Wed Jul 02 04:47:52 UTC 2025","passed","Wed Jul 02 04:48:59 UTC 2025","Page Kartor Och Zoner","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify kundservicebutik menu item is visible and clickable
-5. Verify navigation to kundservicebutik URL","3295","Verify Menu Biljetter Och Priser Kop Biljett Kundservicebutik","","Wed Jul 02 04:44:02 UTC 2025","passed","Wed Jul 02 04:44:05 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify stationer menu item is visible and clickable
-5. Verify navigation to stationer URL","2853","Verify Menu Res Med Oss Tillganglighet Ledsagning Stationer","","Wed Jul 02 04:43:07 UTC 2025","passed","Wed Jul 02 04:43:10 UTC 2025","Page Header And Menu","Test Suites","",""
+1. Verify footer linkedin is visible and clickable","4298","Verify Footer LinkedIn Icon","","Wed Jul 02 11:39:44 UTC 2025","passed","Wed Jul 02 11:39:48 UTC 2025","Page Footer","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 1) is visible and clickable
 3. Verify expandera under meny (index 2) is visible and clickable
-4. Verify periodbiljett menu item is visible and clickable
-5. Verify navigation to periodbiljett URL","3204","Verify Menu Biljetter Och Priser Vara Biljetter Periodbiljett","","Wed Jul 02 04:43:29 UTC 2025","passed","Wed Jul 02 04:43:32 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 4) is visible and clickable
-3. Verify expandera under meny (index 5) is visible and clickable
-4. Verify fakturering menu item is visible and clickable
-5. Verify navigation to fakturering URL","3066","Verify Menu Foretag Att Vara Foretagskund Fakturering","","Wed Jul 02 04:45:43 UTC 2025","passed","Wed Jul 02 04:45:46 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 1) is visible and clickable
-4. Verify expandera under meny (index 3) is visible and clickable
-5. Verify öasvängen menu item is visible and clickable
-6. Verify navigation to öasvängen URL","2906","Verify Menu Res Med Oss Serviceresor Nartrafik Oasvangen","","Wed Jul 02 04:42:31 UTC 2025","passed","Wed Jul 02 04:42:33 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 1) is visible and clickable
-4. Verify expandera under meny (index 3) is visible and clickable
-5. Verify huskvarnasnurren menu item is visible and clickable
-6. Verify navigation to huskvarnasnurren URL","2911","Verify Menu Res Med Oss Serviceresor Nartrafik Huskvarnasnurren","","Wed Jul 02 04:42:34 UTC 2025","passed","Wed Jul 02 04:42:36 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify företagsportalen menu item is visible and clickable
-3. Verify navigation to företagsportalen URL","3622","Verify Menu Foretagsportalen","","Wed Jul 02 04:46:19 UTC 2025","passed","Wed Jul 02 04:46:22 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 4) is visible and clickable
-3. Verify expandera under meny (index 6) is visible and clickable
-4. Verify skicka biljett menu item is visible and clickable
-5. Verify navigation to skicka biljett URL","2927","Verify Menu Foretag Vara Tjanster Skicka Biljett","","Wed Jul 02 04:45:55 UTC 2025","passed","Wed Jul 02 04:45:58 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify linjer hallplatser och tidtabeller menu item is visible and clickable
-4. Verify navigation to linjer hallplatser och tidtabeller URL","3287","Verify Menu Res Med Oss Linjer Hallplatser Och Tidtabeller","","Wed Jul 02 04:42:46 UTC 2025","passed","Wed Jul 02 04:42:49 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 2) is visible and clickable
-4. Verify flexbiljett menu item is visible and clickable
-5. Verify navigation to flexbiljett URL","3743","Verify Menu Biljetter Och Priser Vara Biljetter Flexbiljett","","Wed Jul 02 04:43:25 UTC 2025","passed","Wed Jul 02 04:43:29 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 2) is visible and clickable
-4. Verify 24 timmars menu item is visible and clickable
-5. Verify navigation to 24 timmars URL","2804","Verify Menu Biljetter Och Priser Vara Biljetter 24timmars","","Wed Jul 02 04:43:22 UTC 2025","passed","Wed Jul 02 04:43:25 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Navigate to Felanmalan Handenhet form
-2. Check iframe is visible
-3. Check if Friendly Captcha is visible","3082","Verify Felanmalan Handenhet Form and Captcha Is Visible","","Wed Jul 02 04:39:23 UTC 2025","passed","Wed Jul 02 04:39:26 UTC 2025","Health Check External Resources","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 3) is visible and clickable
-3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify vår trafik menu item is visible and clickable
-5. Verify navigation to vår trafik URL","3182","Verify Menu Om JLT Var Trafik","","Wed Jul 02 04:45:10 UTC 2025","passed","Wed Jul 02 04:45:14 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify expandera under meny (index 5) is visible and clickable
-4. Verify alternativa färdmedel menu item is visible and clickable
-5. Verify navigation to alternativa färdmedel URL","2807","Verify Menu Kundservice Forseningsersattning Alternativa Fardmedel","","Wed Jul 02 04:44:49 UTC 2025","passed","Wed Jul 02 04:44:52 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 4) is visible and clickable
-3. Verify expandera under meny (index 6) is visible and clickable
-4. Verify personalerbjudande menu item is visible and clickable
-5. Verify navigation to personalerbjudande URL","2929","Verify Menu Foretag Vara Tjanster Personalerbjudande","","Wed Jul 02 04:45:58 UTC 2025","passed","Wed Jul 02 04:46:01 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify footer om oss is visible and clickable
-2. Verify footer om oss om verksamheten is visible and clickable
-3. Verify footer om oss var trafik is visible and clickable
-4. Verify footer om oss press och media is visible and clickable
-5. Verify footer om oss lediga tjanster is visible and clickable
-6. Verify footer om oss cookies is visible and clickable
-7. Verify footer om oss tillgangsredogorelse is visible and clickable","5840","Verify Footer Om Oss","","Wed Jul 02 04:41:19 UTC 2025","passed","Wed Jul 02 04:41:25 UTC 2025","Page Footer","Test Suites","",""
-"Test steps:
-1. Navigate to Felanmalan Buss form
-2. Check iframe is visible
-3. Check if Friendly Captcha is visible","3254","Verify Felanmalan Buss Form and Captcha Is Visible","","Wed Jul 02 04:39:26 UTC 2025","passed","Wed Jul 02 04:39:29 UTC 2025","Health Check External Resources","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 3) is visible and clickable
-3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify expandera under meny (index 5) is visible and clickable
-5. Verify mitt konto menu item is visible and clickable
-6. Verify navigation to mitt konto URL","2932","Verify Menu Om JLT Tillganglighetsredogorelse Mitt Konto","","Wed Jul 02 04:45:28 UTC 2025","passed","Wed Jul 02 04:45:31 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 1) is visible and clickable
-4. Verify expandera under meny (index 3) is visible and clickable
-5. Verify expandera under meny (index 4) is visible and clickable
-6. Verify ansök om återkommande resor menu item is visible and clickable
-7. Verify navigation to ansök om återkommande resor URL","3263","Verify Menu Res Med Oss Serviceresor Fardtjanst Ansok Om Aterkommande Resor","","Wed Jul 02 04:42:39 UTC 2025","passed","Wed Jul 02 04:42:43 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify header företag is visible and clickable
-2. Verify navigation to företag URL","3063","Verify Header Foretag","","Wed Jul 02 04:42:02 UTC 2025","passed","Wed Jul 02 04:42:05 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify footer linkedin is visible and clickable","3817","Verify Footer LinkedIn Icon","","Wed Jul 02 04:41:46 UTC 2025","passed","Wed Jul 02 04:41:50 UTC 2025","Page Footer","Test Suites","",""
-"Test steps:
-1. Verify header logga in is visible and clickable
-2. Verify mitt konto option becomes visible
-3. Verify företagsportalen option becomes visible","2650","Verify Header Logga In","","Wed Jul 02 04:42:10 UTC 2025","passed","Wed Jul 02 04:42:13 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 4) is visible and clickable
-3. Verify expandera under meny (index 7) is visible and clickable
-4. Verify beställ resekort menu item is visible and clickable
-5. Verify navigation to beställ resekort URL","2781","Verify Menu Foretag Fragor Och Svar Bestall Resekort","","Wed Jul 02 04:46:06 UTC 2025","passed","Wed Jul 02 04:46:09 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 2) is visible and clickable
-4. Verify skolbiljett menu item is visible and clickable
-5. Verify navigation to skolbiljett URL","3188","Verify Menu Biljetter Och Priser Vara Biljetter Skolbiljett","","Wed Jul 02 04:43:36 UTC 2025","passed","Wed Jul 02 04:43:39 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify that Kartor och zoner is visible
-2. Click on Interaktiv Karta
-3. Verify that the URL is correct
-4. Verify that Interaktiv Karta is visible","5373","Verify Kartor Och Zoner Interaktiv Karta","","Wed Jul 02 04:47:12 UTC 2025","passed","Wed Jul 02 04:47:18 UTC 2025","Page Kartor Och Zoner","Test Suites","",""
-"Test steps:
-1. Verify that Biljettvaljaren Puff is visible","2224","Verify Homepage Biljettvaljaren Puff Is Visible","","Wed Jul 02 04:46:59 UTC 2025","passed","Wed Jul 02 04:47:01 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify stäng meny button is visible and clickable
-3. Verify menu closes after clicking stäng meny","2567","Verify Menu Oppna Och Stang Meny Button","","Wed Jul 02 04:42:13 UTC 2025","passed","Wed Jul 02 04:42:15 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify header translate is visible and clickable
-2. Verify navigation to English contact page URL","2712","Verify Header Translate","","Wed Jul 02 04:42:07 UTC 2025","passed","Wed Jul 02 04:42:10 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify länstrafiken logo is visible and clickable
-2. Verify navigation to homepage URL","2605","Verify Header Lanstrafiken Logo","","Wed Jul 02 04:41:50 UTC 2025","passed","Wed Jul 02 04:41:53 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify footer instagram is visible and clickable","3560","Verify Footer Instagram Icon","","Wed Jul 02 04:41:43 UTC 2025","passed","Wed Jul 02 04:41:46 UTC 2025","Page Footer","Test Suites","",""
+4. Verify expandera under meny (index 4) is visible and clickable
+5. Verify seniorrabatt menu item is visible and clickable
+6. Verify navigation to seniorrabatt URL","3707","Verify Menu Biljetter Och Priser Vara Biljetter Periodbiljett Seniorrabatt","","Wed Jul 02 11:41:46 UTC 2025","passed","Wed Jul 02 11:41:50 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 3) is visible and clickable
 3. Verify expandera under meny (index 4) is visible and clickable
 4. Verify lediga tjänster menu item is visible and clickable
-5. Verify navigation to lediga tjänster URL","2740","Verify Menu Om JLT Lediga Tjanster","","Wed Jul 02 04:45:17 UTC 2025","passed","Wed Jul 02 04:45:19 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 1) is visible and clickable
-4. Verify expandera under meny (index 2) is visible and clickable
-5. Verify hälsoåskal menu item is visible and clickable
-6. Verify navigation to hälsoåskal URL","2889","Verify Menu Res Med Oss Serviceresor Sjukresor Halsoskal","","Wed Jul 02 04:42:25 UTC 2025","passed","Wed Jul 02 04:42:28 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify that big-button-container pos 2 is visible
-2. Click on big-button-container pos 2
-3. Verify that the URL is correct","2729","Verify Homepage Big-button-container Pos 2","","Wed Jul 02 04:46:36 UTC 2025","passed","Wed Jul 02 04:46:39 UTC 2025","Page Homepage","Test Suites","",""
+5. Verify navigation to lediga tjänster URL","3478","Verify Menu Om JLT Lediga Tjanster","","Wed Jul 02 11:43:45 UTC 2025","passed","Wed Jul 02 11:43:48 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 4) is visible and clickable
-3. Verify expandera under meny (index 5) is visible and clickable
-4. Verify resekort menu item is visible and clickable
-5. Verify navigation to resekort URL","2810","Verify Menu Foretag Att Vara Foretagskund Resekort","","Wed Jul 02 04:45:40 UTC 2025","passed","Wed Jul 02 04:45:43 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify vara biljetter menu item is visible and clickable
-4. Verify navigation to vara biljetter URL","3051","Verify Menu Biljetter Och Priser Vara Biljetter","","Wed Jul 02 04:43:13 UTC 2025","passed","Wed Jul 02 04:43:16 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify serviceresor menu item is visible and clickable
-4. Verify navigation to serviceresor URL","2979","Verify Menu Res Med Oss Serviceresor","","Wed Jul 02 04:42:18 UTC 2025","passed","Wed Jul 02 04:42:21 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify aktivera blippa menu item is visible and clickable
-5. Verify navigation to aktivera blippa URL","3699","Verify Menu Biljetter Och Priser Kop Biljett Aktivera Blippa","","Wed Jul 02 04:43:55 UTC 2025","passed","Wed Jul 02 04:43:59 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Click on Google Translate
-2. Verify URL
-3. Verify Google Translate block is visible","3955","Verify Google Translate Element Is Visible","","Wed Jul 02 04:39:39 UTC 2025","passed","Wed Jul 02 04:39:43 UTC 2025","Health Check External Resources","Test Suites","",""
+3. Verify logga in/ansök menu item is visible and clickable
+4. Verify navigation to logga in/ansök URL","3497","Verify Menu Foretag Logga In Ansok","","Wed Jul 02 11:44:38 UTC 2025","passed","Wed Jul 02 11:44:42 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Extract all URLs from variables_urls.robot
 2. For each URL:
    - Open the URL
    - Verify that the URL responds with an HTTP status code of 200 (OK)
    - Verify that the URL contains the basic elements (header, footer and menu)
-   - Close the page","127065","Verify All URLs Respond And Contain Basic Elements","","Wed Jul 02 04:36:29 UTC 2025","passed","Wed Jul 02 04:38:36 UTC 2025","health check all URLs","Test Suites","",""
-"This test checks:
-1. Performs search
-2. Clicks on search result index 0
-3. Verifies correct page","4820","Verify Search on Periodbiljetter","","Wed Jul 02 04:48:59 UTC 2025","passed","Wed Jul 02 04:49:03 UTC 2025","Page Search","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify företag menu item is visible and clickable
-3. Verify navigation to företag URL","2812","Verify Menu Foretag","","Wed Jul 02 04:45:34 UTC 2025","passed","Wed Jul 02 04:45:37 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify footer resa is visible and clickable
-2. Verify footer resa servicresor is visible and clickable
-3. Verify footer resa linjer is visible and clickable
-4. Verify footer resa kartor is visible and clickable
-5. Verify footer resa tillgänglighet och ledsagning is visible and clickable","4366","Verify Footer Resa","","Wed Jul 02 04:41:07 UTC 2025","passed","Wed Jul 02 04:41:11 UTC 2025","Page Footer","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify barnvagn menu item is visible and clickable
-5. Verify navigation to barnvagn URL","2925","Verify Menu Res Med Oss Tillganglighet Ledsagning Barnvagn","","Wed Jul 02 04:43:05 UTC 2025","passed","Wed Jul 02 04:43:07 UTC 2025","Page Header And Menu","Test Suites","",""
+   - Close the page","152711","Verify All URLs Respond And Contain Basic Elements","","Wed Jul 02 11:33:41 UTC 2025","passed","Wed Jul 02 11:36:14 UTC 2025","health check all URLs","Test Suites","",""
 "Test steps:
 1. Verify menu button is visible and clickable
 2. Verify expandera under meny (index 4) is visible and clickable
-3. Verify våra tjänster menu item is visible and clickable
-4. Verify navigation to våra tjänster URL","3149","Verify Menu Foretag Vara Tjanster","","Wed Jul 02 04:45:49 UTC 2025","passed","Wed Jul 02 04:45:52 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify all contact blocks are visible","2645","Verify Footer Contact Blocks","","Wed Jul 02 04:41:04 UTC 2025","passed","Wed Jul 02 04:41:07 UTC 2025","Page Footer","Test Suites","",""
-"Test steps:
-1. Navigate to Synpunkter Serviceresor form
-2. Check iframe is visible
-3. Send a GET request to the iframe src
-4. Verify that the received HTTP status code is 200.","3777","Verify Synpunkter Serviceresor Form Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 04:39:12 UTC 2025","passed","Wed Jul 02 04:39:16 UTC 2025","Health Check External Resources","Test Suites","",""
-"Test steps:
-1. Check if big-button-container is visible","2271","Verify Homepage Big-button-container Is Visible","","Wed Jul 02 04:46:31 UTC 2025","passed","Wed Jul 02 04:46:34 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Verify header kundservice is visible and clickable
-2. Verify navigation to kundservice URL","2844","Verify Header Kundservice","","Wed Jul 02 04:41:59 UTC 2025","passed","Wed Jul 02 04:42:02 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify återförsäljare menu item is visible and clickable
-5. Verify navigation to återförsäljare URL","3081","Verify Menu Biljetter Och Priser Kop Biljett Aterforsaljare","","Wed Jul 02 04:44:05 UTC 2025","passed","Wed Jul 02 04:44:08 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify header sök is visible and clickable
-2. Verify searchbar becomes visible after click","2747","Verify Header Sök","","Wed Jul 02 04:42:05 UTC 2025","passed","Wed Jul 02 04:42:07 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify expandera under meny (index 5) is visible and clickable
-4. Verify formulär menu item is visible and clickable
-5. Verify navigation to formulär URL","2887","Verify Menu Kundservice Forseningsersattning Formular","","Wed Jul 02 04:44:46 UTC 2025","passed","Wed Jul 02 04:44:49 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify engelska menu item is visible and clickable
-5. Verify navigation to engelska URL","2792","Verify Menu Kundservice Kontakta Oss Engelska","","Wed Jul 02 04:44:29 UTC 2025","passed","Wed Jul 02 04:44:31 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Navigate to Synpunkter Kundpanel form
-2. Check iframe is visible
-3. Check if Friendly Captcha is visible","3514","Verify Synpunkter Kundpanel Form and Captcha Is Visible","","Wed Jul 02 04:39:16 UTC 2025","passed","Wed Jul 02 04:39:19 UTC 2025","Health Check External Resources","Test Suites","",""
-"Test steps:
-1. Verify footer kundservice is visible and clickable
-2. Verify footer kundservice kontakta oss is visible and clickable
-3. Verify footer kundservice lamna synpunkter is visible and clickable
-4. Verify footer kundservice forseningersattning is visible and clickable","3618","Verify Footer Kundservice","","Wed Jul 02 04:41:15 UTC 2025","passed","Wed Jul 02 04:41:19 UTC 2025","Page Footer","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify mitt konto menu item is visible and clickable
-3. Verify navigation to mitt konto URL","3669","Verify Menu Mitt Konto","","Wed Jul 02 04:46:15 UTC 2025","passed","Wed Jul 02 04:46:18 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Navigate to Homepage through page logo
-2. Get the title of the homepage
-3. Verify that the title is ""Start - Jönköpings Länstrafik"".","2670","Verify Homepage Title Is Visible","","Wed Jul 02 04:46:26 UTC 2025","passed","Wed Jul 02 04:46:28 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Navigate to Res med oss
-2. Verify URL
-3. Verify FAQ-module is visible","3169","Verify FAQ-module General","","Wed Jul 02 04:40:55 UTC 2025","passed","Wed Jul 02 04:40:58 UTC 2025","Page Faq Module","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify åldersgränser och rabatter menu item is visible and clickable
-4. Verify navigation to åldersgränser och rabatter URL","2955","Verify Menu Biljetter Och Priser Aldersgranser Och Rabatter","","Wed Jul 02 04:44:12 UTC 2025","passed","Wed Jul 02 04:44:15 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 4) is visible and clickable
-3. Verify expandera under meny (index 5) is visible and clickable
-4. Verify priser menu item is visible and clickable
-5. Verify navigation to priser URL","2802","Verify Menu Foretag Att Vara Foretagskund Priser","","Wed Jul 02 04:45:46 UTC 2025","passed","Wed Jul 02 04:45:49 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify res med oss menu item is visible and clickable
-3. Verify navigation to res med oss URL","2825","Verify Menu Res Med Oss","","Wed Jul 02 04:42:15 UTC 2025","passed","Wed Jul 02 04:42:18 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 3) is visible and clickable
-3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify expandera under meny (index 5) is visible and clickable
-5. Verify jlt.se menu item is visible and clickable
-6. Verify navigation to jlt.se URL","3505","Verify Menu Om JLT Tillganglighetsredogorelse JLTse","","Wed Jul 02 04:45:25 UTC 2025","passed","Wed Jul 02 04:45:28 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify header res med oss is visible and clickable
-2. Verify navigation to res med oss URL","2938","Verify Header Res Med Oss","","Wed Jul 02 04:41:53 UTC 2025","passed","Wed Jul 02 04:41:56 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify biljettautomater menu item is visible and clickable
-5. Verify navigation to biljettautomater URL","2978","Verify Menu Biljetter Och Priser Kop Biljett Biljettautomater","","Wed Jul 02 04:43:52 UTC 2025","passed","Wed Jul 02 04:43:55 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Click on Google Translate
-2. Verify URL
-3. Select Arabic
-4. Verify it is translated to Arabic","6498","Verify Arabic Translation","","Wed Jul 02 04:39:43 UTC 2025","passed","Wed Jul 02 04:39:49 UTC 2025","Health Check External Resources","Test Suites","",""
+3. Verify expandera under meny (index 6) is visible and clickable
+4. Verify skicka biljett menu item is visible and clickable
+5. Verify navigation to skicka biljett URL","3385","Verify Menu Foretag Vara Tjanster Skicka Biljett","","Wed Jul 02 11:44:31 UTC 2025","passed","Wed Jul 02 11:44:34 UTC 2025","Page Header And Menu","Test Suites","",""
 "Test steps:
 1. Verify footer biljetter och priser is visible and clickable
 2. Verify footer biljetter och priser vara biljetter is visible and clickable
 3. Verify footer biljetter och priser kop biljetter is visible and clickable
-4. Verify footer biljetter och priser rabatter is visible and clickable","3743","Verify Footer Biljetter","","Wed Jul 02 04:41:11 UTC 2025","passed","Wed Jul 02 04:41:15 UTC 2025","Page Footer","Test Suites","",""
-"Test steps:
-1. Scroll right and verify that Nyhet Pos 4 is visible
-2. Click on Nyhet Pos 4
-3. Verify that the URL is correct","4168","Verify Homepage Nyheter Scroll Right And Click On Nyhet Pos 4","","Wed Jul 02 04:46:52 UTC 2025","passed","Wed Jul 02 04:46:56 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Verify that Kartor och zoner is visible
-2. Click on Kartor och zoner
-3. Verify that the URL is correct
-4. Verify that Linjekartor Per Region is visible","15803","Verifiera Kartor Och Zoner Linjekartor Per Region","","Wed Jul 02 04:47:18 UTC 2025","passed","Wed Jul 02 04:47:34 UTC 2025","Page Kartor Och Zoner","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify biljetter och priser menu item is visible and clickable
-3. Verify navigation to biljetter och priser URL","2876","Verify Menu Biljetter Och Priser","","Wed Jul 02 04:43:10 UTC 2025","passed","Wed Jul 02 04:43:13 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify tidtabeller menu item is visible and clickable
-5. Verify navigation to tidtabeller URL","3038","Verify Menu Res Med Oss Tillganglighet Ledsagning Tidtabeller","","Wed Jul 02 04:43:01 UTC 2025","passed","Wed Jul 02 04:43:04 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify that Nyhet Pos 1 is visible
-2. Click on Nyhet Pos 1
-3. Verify that the URL is correct","2602","Verify Homepage Nyheter Click On Nyhet Pos 1","","Wed Jul 02 04:46:49 UTC 2025","passed","Wed Jul 02 04:46:52 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 2) is visible and clickable
-4. Verify kommersiell trafik menu item is visible and clickable
-5. Verify navigation to kommersiell trafik URL","3221","Verify Menu Res Med Oss Kartor Och Zoner Kommersiell Trafik","","Wed Jul 02 04:42:52 UTC 2025","passed","Wed Jul 02 04:42:55 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify kontakta oss menu item is visible and clickable
-4. Verify navigation to kontakta oss URL","2693","Verify Menu Kundservice Kontakta Oss","","Wed Jul 02 04:44:17 UTC 2025","passed","Wed Jul 02 04:44:20 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Check if Reseplanerare is visible
-2. Send a GET request to JLT homepage Reseplanerare iframe.
-3. Verify that the received HTTP status code is 200.","3076","Verify Reseplanerare Is Visible and Returns HTTP Status Code STATUS_OK (200)","","Wed Jul 02 04:38:51 UTC 2025","passed","Wed Jul 02 04:38:54 UTC 2025","Health Check External Resources","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify mitt konto menu item is visible and clickable
-5. Verify navigation to mitt konto URL","3118","Verify Menu Biljetter Och Priser Kop Biljett Mitt Konto","","Wed Jul 02 04:43:59 UTC 2025","passed","Wed Jul 02 04:44:02 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify that Nyheter Carousel Footer is visible","2297","Verify Homepage Nyheter Carousel Footer Is Visible","","Wed Jul 02 04:46:47 UTC 2025","passed","Wed Jul 02 04:46:49 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Verify that Biljettvaljaren Puff Link is visible
-2. Click on Biljettvaljaren Puff Link
-3. Verify that the URL is correct","2723","Verify Homepage Biljettvaljaren Puff Link","","Wed Jul 02 04:47:01 UTC 2025","passed","Wed Jul 02 04:47:04 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify expandera under meny (index 3) is visible and clickable
-4. Verify förlustgaranti menu item is visible and clickable
-5. Verify navigation to förlustgaranti URL","2733","Verify Menu Kundservice Kontakta Oss Forlustgaranti","","Wed Jul 02 04:44:23 UTC 2025","passed","Wed Jul 02 04:44:26 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 4) is visible and clickable
-3. Verify logga in/ansök menu item is visible and clickable
-4. Verify navigation to logga in/ansök URL","2879","Verify Menu Foretag Logga In Ansok","","Wed Jul 02 04:46:01 UTC 2025","passed","Wed Jul 02 04:46:03 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify that big-button-container pos 1 is visible
-2. Click on big-button-container pos 1
-3. Verify that the URL is correct","2734","Verify Homepage Big-button-container Pos 1","","Wed Jul 02 04:46:34 UTC 2025","passed","Wed Jul 02 04:46:36 UTC 2025","Page Homepage","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 2) is visible and clickable
-3. Verify expandera under meny (index 4) is visible and clickable
-4. Verify allmän menu item is visible and clickable
-5. Verify navigation to allmän URL","3092","Verify Menu Kundservice Lamna Synpunkter Allman","","Wed Jul 02 04:44:40 UTC 2025","passed","Wed Jul 02 04:44:43 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify expandera under meny (index 2) is visible and clickable
-4. Verify expandera under meny (index 3) is visible and clickable
-5. Verify kundkassa menu item is visible and clickable
-6. Verify navigation to kundkassa URL","2983","Verify Menu Biljetter Och Priser Vara Biljetter Enkelbiljett Kundkassa","","Wed Jul 02 04:43:19 UTC 2025","passed","Wed Jul 02 04:43:22 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Navigate to Res med oss
-2. Verify URL
-3. Verify first question is visible
-4. Click on first question
-5. Verify first question is expanded
-6. Click on first question
-7. Verify first question is collapsed","3356","Verify FAQ-module Expanding And Collapsing Of Questions","","Wed Jul 02 04:41:01 UTC 2025","passed","Wed Jul 02 04:41:04 UTC 2025","Page Faq Module","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 1) is visible and clickable
-3. Verify köp biljett menu item is visible and clickable
-4. Verify navigation to köp biljett URL","3203","Verify Menu Biljetter Och Priser Kop Biljett","","Wed Jul 02 04:43:39 UTC 2025","passed","Wed Jul 02 04:43:42 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Renew consent
-2. Switch marketing cookies
-3. Reject cookies
-4. Renew consent
-5. Accept cookies","2734","Verify Cookie Banner","","Wed Jul 02 04:39:36 UTC 2025","passed","Wed Jul 02 04:39:39 UTC 2025","Health Check External Resources","Test Suites","",""
-"This test checks:
-1. Performs search
-2. Clicks on search result index 0
-3. Verifies correct page","4588","Verify Search on Ge bort biljett","","Wed Jul 02 04:49:04 UTC 2025","passed","Wed Jul 02 04:49:08 UTC 2025","Page Search","Test Suites","",""
-"Test steps:
-1. Verify menu button is visible and clickable
-2. Verify expandera under meny (index 0) is visible and clickable
-3. Verify expandera under meny (index 1) is visible and clickable
-4. Verify expandera under meny (index 3) is visible and clickable
-5. Verify färdtjänst menu item is visible and clickable
-6. Verify navigation to färdtjänst URL","2980","Verify Menu Res Med Oss Serviceresor Fardtjanst","","Wed Jul 02 04:42:36 UTC 2025","passed","Wed Jul 02 04:42:39 UTC 2025","Page Header And Menu","Test Suites","",""
-"Test steps:
-1. Navigate to Felanmalan Biljettautomat form
-2. Check iframe is visible
-3. Check if Friendly Captcha is visible","3609","Verify Felanmalan Biljettautomat Form and Captcha Is Visible","","Wed Jul 02 04:39:19 UTC 2025","passed","Wed Jul 02 04:39:23 UTC 2025","Health Check External Resources","Test Suites","",""
+4. Verify footer biljetter och priser rabatter is visible and clickable","4557","Verify Footer Biljetter","","Wed Jul 02 11:39:03 UTC 2025","passed","Wed Jul 02 11:39:08 UTC 2025","Page Footer","Test Suites","",""
